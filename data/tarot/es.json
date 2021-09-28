@@ -5,7 +5,7 @@
       "up": "Cada investigador no derrotado durante esta partida obtiene +2 puntos de experiencia durante su resolución.",
       "down": "Cada investigador derrotado durante esta partida obtiene -2 puntos de experiencia durante su resolución.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "1"
     },
     {
@@ -13,7 +13,7 @@
       "up": "Cada investigador comienza la partida con 3 recursos adicionales.",
       "down": "Cada investigador comienza la partida con 3 recursos menos y no puede obtener recursos durante su primer turno",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "2"
     },
     {
@@ -21,7 +21,7 @@
       "up": "Durante la primera puebra de [intellect] que cada investigador realice en cada ronda, recibe +1 [intellect].",
       "down": "Durante la primera puebra de [intellect] que cada investigador realice en cada ronda, recibe -1 [intellect].",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "3"
     },
     {
@@ -29,7 +29,7 @@
       "up": "Durante la primera puebra de [agility] que cada investigador realice en cada ronda, recibe +1 [agility].",
       "down": "Durante la primera puebra de [agility] que cada investigador realice en cada ronda, recibe -1 [agility].",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "4"
     },
     {
@@ -37,7 +37,7 @@
       "up": "Durante la primera puebra de [combat] que cada investigador realice en cada ronda, recibe +1 [combat].",
       "down": "Durante la primera puebra de [combat] que cada investigador realice en cada ronda, recibe -1 [combat].",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "5"
     },
     {
@@ -45,7 +45,7 @@
       "up": "Durante la primera puebra de [willpower] que cada investigador realice en cada ronda, recibe +1 [willpower].",
       "down": "Durante la primera puebra de [willpower] que cada investigador realice en cada ronda, recibe -1 [willpower].",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "6"
     },
     {
@@ -53,7 +53,7 @@
       "up": "Cuando comience la partida, cada investigador busca en su mazo un Apoyo Aliado, lo añade a su mano y baraja su mazo.",
       "down": "Cuando comience la partida, cada investigador busca en su mazo un Apoyo Aliado, lo retira de la partida y baraja su mazo.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "7"
     },
     {
@@ -61,7 +61,7 @@
       "up": "Cada investigador comienza la partida con 2 cartas adicionales en su mano inicial.",
       "down": "Cada investigador comienza la partida con 2 cartas menos en su mano inicial y no puede robar cartas durante su primer turno.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "8"
     },
     {
@@ -69,7 +69,7 @@
       "up": "Cuando comience la partida, cada investigador puede jugar un Apoyo de su mano aplicando -2 a su coste.",
       "down": "Durante la primera ronda de la partida ningún investigador puede jugar Apoyos.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "9"
     },
     {
@@ -77,7 +77,7 @@
       "up": "Aumenta en 3 el tamaño de mano máximo de cada investigador.",
       "down": "Reduce en 3 el tamaño de mano máximo de cada investigador.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "10"
     },
     {
@@ -85,7 +85,7 @@
       "up": "Una vez por cada acto, cuando cualquier investigador revele una ficha [auto_fail], los investigadores pueden cancelarla y considerarla como una ficha 0 en su lugar.",
       "down": "Una vez por cada plan, cuando cualquier investigador revele una ficha [elder_sign], cancelala y considerala como una ficha -5 en su lugar.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "11"
     },
     {
@@ -93,7 +93,7 @@
       "up": "Cancela la última ficha de Perdición que duese a colocarse sobre el último plan de la partida.",
       "down": "El último plan de la partida entra en juego con 1 ficha de Perdición sobre él.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "12"
     },
     {
@@ -101,7 +101,7 @@
       "up": "Durante la preparación, cada investigador puede cambiar su mano inicial hasta 2 veces adicionales.",
       "down": "Ningún investigador puede cambiar su mano inicial ni cambiar Debilidades que tenga en ella (resuelve sus capacidades \"Revelación\" cuando comience la partida).",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "13"
     },
     {
@@ -109,7 +109,7 @@
       "up": "Cada investigador recibe +1 de salud.",
       "down": "Cada investigador recibe -1 de salud.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "14"
     },
     {
@@ -117,7 +117,7 @@
       "up": "Cada investigador recibe +1 de cordura.",
       "down": "Cada investigador recibe -1 de cordura.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "15"
     },
     {
@@ -125,7 +125,7 @@
       "up": "Cada investigador tiene 1 espacio adicional de tipo a elección de ese investigador cuando comience la partida.",
       "down": "Cada investigador tiene 3 espacio menos, cada uno de un tipo distinto, a elección de ese investigador cuando comience la partida.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "16"
     },
     {
@@ -133,7 +133,7 @@
       "up": "Cada investigador elige una 1 Debilidad básica de su mazo y la retira de la partida (devuélvelas después de que acabe la partida).",
       "down": "Añade 1 Debilidad básica aleatoria al mazo de cada investigador. Retíralas después de que acabe la partida.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "17"
     },
     {
@@ -141,7 +141,7 @@
       "up": "Después de que un investigador revele una ficha [elder_sign] durante una prueba de habilidad, puede curarse 1 punto de daño o 1 punto de horror.",
       "down": "Después de que un investigador revele una ficha [auto_fail] durante una prueba de habilidad, debe recibir 1 punto de daño o 1 punto de horror.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "18"
     },
     {
@@ -149,7 +149,7 @@
       "up": "La primera vez que el mazo de cada investigador fuese a quedarse sin cartas, ese investigador puede barajar las 10 cartas inferiores de su pila de descartes y devolverlas a su mazo.",
       "down": "Cuando comience la partida, cada investigador descarta las 5 primeras cartas de su mazo. Añade cada Debilidad descartada al mazo de su propietario y barájalo.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "19"
     },
     {
@@ -157,7 +157,7 @@
       "up": "Durante el primer turno de cada investigador, puede realizar 2 acciones adicionales.",
       "down": "Durante el primer turno de cada investigador, tiene 2 acciones menos para realizar.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "20"
     },
     {
@@ -165,7 +165,7 @@
       "up": "Cuando comience la partida, sustituye una ficha [skull] de la bolsa del caos por una ficha 0. Vuelve intercambiarlas después de que acabe la partida.",
       "down": "Cuando comience la partida, sustituye la ficha de la bolsa del caos que tenga el valor más alto y no sea negativa por una ficha [skull]. Vuelve intercambiarlas después de que acabe la partida.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "21"
     },
     {
@@ -173,7 +173,7 @@
       "up": "Cada investigador no derrotado durante esta partida puede quitarse 1 trauma de su elección durante su resolución.",
       "down": "Cada investigador derrotado durante esta partida sufre 1 trauma de su elección durante su resolución.",
       "illustrator": "Lenka Šimečková",
-      "set": "Regreso al Circulo Roto. Cartas Tarot",
+      "set": "Regreso a El Circulo Roto. Cartas Tarot",
       "number": "22"
     }
   ]
