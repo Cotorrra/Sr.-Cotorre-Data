@@ -64,12 +64,12 @@
     "pack_description": "Pack Name",
     "deck_code_desc": "Deck ID",
     "deck_type_desc": "Deck type (deck or decklist)",
-    "public_deck": "Public (deck)",
-    "private_deck": "Private (decklist)",
+    "public_deck": "Public (decklist)",
+    "private_deck": "Private (deck)",
     "card_type_desc": "Card type",
     "extras_description": "Extras",
-    "tarot_title": "Carta de Tarot",
+    "tarot_title": "Tarot Card",
     "tarot_up_name": "Normal",
-    "tarot_down_name": "Invertido"
+    "tarot_down_name": "Inverted"
     }
 }
