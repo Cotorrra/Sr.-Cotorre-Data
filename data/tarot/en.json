@@ -1,9 +1,9 @@
 {
   "tarot": [
     {
-      "name": "El Loco • 0",
-      "up": "Cada investigador no derrotado durante esta partida obtiene +2 puntos de experiencia durante su resolución.",
-      "down": "Cada investigador derrotado durante esta partida obtiene -2 puntos de experiencia durante su resolución.",
+      "name": "The Fool • 0",
+      "up": "Each investigator not defeated during this game earns +2 experience during its resolution.",
+      "down": "Each investigator defeated during this game earns -2 experience during its resolution.",
       "illustrator": "Lenka Šimečková",
       "set": "Return to the Circle Undone. Tarot Cards",
       "number": "1"

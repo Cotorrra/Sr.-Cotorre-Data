@@ -20,6 +20,7 @@
     "enemy": "Enemy",
     "location": "Location",
     "player_cards": "Player Cards",
+    "xp": "Experience",
     "mythos": "Mythos",
     "attack": "Attack",
     "vengeance": "Vengeance",
@@ -66,6 +67,9 @@
     "public_deck": "Public (deck)",
     "private_deck": "Private (decklist)",
     "card_type_desc": "Card type",
-    "extras_description": "Extras"
+    "extras_description": "Extras",
+    "tarot_title": "Carta de Tarot",
+    "tarot_up_name": "Normal",
+    "tarot_down_name": "Invertido"
     }
 }
