@@ -33,7 +33,7 @@
       "number": "4"
     },
     {
-      "name": "La Emperador • IV",
+      "name": "El Emperador • IV",
       "up": "Durante la primera puebra de [combat] que cada investigador realice en cada ronda, recibe +1 [combat].",
       "down": "Durante la primera puebra de [combat] que cada investigador realice en cada ronda, recibe -1 [combat].",
       "illustrator": "Lenka Šimečková",
@@ -90,7 +90,7 @@
     },
     {
       "name": "La Justicia • XI",
-      "up": "Cancela la última ficha de Perdición que duese a colocarse sobre el último plan de la partida.",
+      "up": "Cancela la primera ficha de Perdición que fuese a colocarse sobre el último plan de la partida.",
       "down": "El último plan de la partida entra en juego con 1 ficha de Perdición sobre él.",
       "illustrator": "Lenka Šimečková",
       "set": "Regreso a El Circulo Roto. Cartas Tarot",
