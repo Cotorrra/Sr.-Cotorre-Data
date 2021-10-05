@@ -17,7 +17,7 @@
   },
   {
     "code": "01014",
-    "text": "Esta carta no tiene nivel (en lugar de ser de nivel 0). La capacidad <b>Obligado</b> de esta carta debería decir: Después de que juegues un evento o descartes del juego un evento:...\""
+    "text": "Esta carta no tiene nivel (en lugar de ser de nivel 0). \nLa capacidad <b>Obligado</b> de esta carta debería decir: Después de que juegues un evento o descartes del juego un evento:...\""
   },
   {
     "code": "02001",
@@ -50,7 +50,7 @@
   },
   {
     "code": "02020",
-    "text": "La primera habilidad de esta carta debería decir: \"Tu tamaño de mano máximo aumenta en 2.\""
+    "text": "La primera capacidad de esta carta debería decir: \"Tu tamaño de mano máximo aumenta en 2.\""
   },
   {
     "code": "02040",
@@ -62,7 +62,7 @@
   },
   {
     "code": "02205",
-    "text": "La primera capacidad de esta carta debería decir: \"<b>Obligado</b>: Después de que fracases en una prueba de habilidad al investigar las Ruinas calcinadas: Dale la vuelta a 1 ficha de Pista de las Ruinas calcinadas para que muestre su lado de perdición.\"."
+    "text": "La primera capacidad de esta carta debería decir: \"<b>Obligado</b> – Después de que fracases en una prueba de habilidad al investigar las Ruinas calcinadas: Dale la vuelta a 1 ficha de Pista de las Ruinas calcinadas para que muestre su lado de perdición.\"."
   },
   {
     "code": "02230",

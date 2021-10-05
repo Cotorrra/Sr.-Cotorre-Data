@@ -70,7 +70,7 @@
       },
       {
         "code": "02226",
-        "text": "La capacidad [action] de esta carta obtiene: \"Este ataque puede tomar como objetivo a un Enemigo que no sea Élite y esté a un lugar de distancia de su rango original, ignorando las palabras clave Indiferente y Represalia.\""
+        "text": "La capacidad [action] de esta carta obtiene: \"Este ataque puede tomar como objetivo a un Enemigo que no sea Élite y esté hasta 1 Lugar de distancia de su alcance original, ignorando las palabras clave Indiferente y Represalia.\""
       },
       {
         "code": "02111",
@@ -78,7 +78,7 @@
       },
       {
         "code": "02229",
-        "text": "Al final de esta prueba de habilidad esta carta obtiene: \"Máximo una vez por ronda.\""
+        "text": "Esta carta obtiene: \"Máximo una vez por ronda.\""
       },
       {
         "code": "02266",
@@ -95,7 +95,7 @@
       },
       {
         "code": "04309",
-        "text": "Al final de esta prueba de habilidad esta obtiene: \"Retira No va más de la partida.\""
+        "text": "Al final de su capacidad, esta carta obtiene: \"Retira No va más de la partida.\""
       },
       {
         "code": "05116",
@@ -119,15 +119,15 @@
       },
       {
         "code": "06022",
-        "text": "La capacidad constante de esta carta ahora dice: \"Si esta carta no tiene cargas, retírala de la partida.\""
+        "text": "La capacidad continua de esta carta ahora dice: \"Si esta carta no tiene cargas, retírala de la partida.\""
       },
       {
         "code": "06195",
-        "text": "La capacidad [action] de esta carta ahora dice: \"[action] Gasta 1 munición: <b>Combatir.</b> Recibes +2 [combat] para este ataque. Si es revelada una ficha de caos que no contenga un modificador negativo durante este ataque, este ataque inflige +2 de daño.\""
+        "text": "La capacidad [action] de esta carta ahora dice: \"[action] Gasta 1 munición: <b>Combatir.</b> Recibes +2 [combat] para este ataque. Si es revelada una ficha de caos que tenga un modificador que no sea negativo durante este ataque, este ataque inflige +2 de daño.\""
       },
       {
         "code": "06199",
-        "text": "La capacidad de esta carta obtiene: \"Retira cada copia asignada de Tres ases de la partida.\""
+        "text": "La capacidad de esta carta obtiene: \"Retira de la partida todas las copias asignadas de Tres ases.\""
       },
       {
         "code": "07269",
