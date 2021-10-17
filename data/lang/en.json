@@ -70,6 +70,7 @@
     "extras_description": "Extras",
     "tarot_title": "Tarot Card",
     "tarot_up_name": "Normal",
-    "tarot_down_name": "Inverted"
+    "tarot_down_name": "Inverted",
+    "self_delete": "Delete Message"
     }
 }
