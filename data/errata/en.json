@@ -81,7 +81,7 @@
   },
   {
     "code": "02230",
-    "text": "This card’s [reaction] ability should read: \"When you reveal a non-[auto-fail] chaos token, spend 2 resources: Ignore that chaos token and reveal another one to resolve. If that token has a [auto-fail] symbol, remove Lucky Dice from the game (cannot be ignored/canceled).\""
+    "text": "This card’s [reaction] ability should read: \"When you reveal a non-[auto_fail] chaos token, spend 2 resources: Ignore that chaos token and reveal another one to resolve. If that token has a [auto_fail] symbol, remove Lucky Dice from the game (cannot be ignored/canceled).\""
   },
   {
     "code": "02277",
@@ -161,7 +161,7 @@
   },
   {
     "code": "04004",
-    "text": "This card’s [reaction] ability should read: \"When an investigator reveals an [auto-fail] chaos token...\""
+    "text": "This card’s [reaction] ability should read: \"When an investigator reveals an [auto_fail] chaos token...\""
   },
   {
     "code": "04035",
