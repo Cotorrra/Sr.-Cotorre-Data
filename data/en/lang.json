@@ -64,7 +64,7 @@
     "pack_description": "Pack Name",
     "deck_code_desc": "Deck ID",
     "deck_type_desc": "Deck type (deck or decklist)",
-    "public_deck": "Public (decklist)",
+    "public_deck": "Published (decklist)",
     "private_deck": "Private (deck)",
     "card_type_desc": "Card type",
     "extras_description": "Extras",
