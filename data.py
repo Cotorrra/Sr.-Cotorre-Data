@@ -3,8 +3,10 @@ import json
 from flask import (
     Flask,
     request,
-    Response, jsonify
+    Response
 )
+from waitress import serve
+
 
 app = Flask(__name__)
 
@@ -26,4 +28,4 @@ def tarot():
     return Response(response, mimetype='application/json')
 
 
-app.run(debug=True)
+serve(app, host="0.0.0.0", port=8080)
