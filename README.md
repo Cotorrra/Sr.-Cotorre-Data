@@ -1,23 +1,23 @@
 # Sr.-Cotorre-Data
-Repo for the main data for Sr. Cotorre.
+Repo for the main data for Sr. "CoTorre". and all other versions of it.
 
-Its divided in 4 folders:
-Each folder should contain one file per language (es, en, etc.) with the following information:
+Its divided in 4 file:
+Each folder language (es, en, etc.) should have 4 files with the following information:
 
-### Errata
-It contains the Erratas: 
+### errata.json
+It contains the cards erratas: 
 
-- `code`: Its card code in ArkhamDB (i.e 01016 for the .45 Automatic)
+- `code`: Its card code in ArkhamDB (example 01016 for the .45 Automatic)
 - `text`: Its errata text in its frontal side
 - `text_back`: Its errata text for the back side (useful for Deckbuilding Options erratas)
 
-### Lang
-It contains all the strings that the bot uses to create it's Discord information. (Slash commands descriptions, tags, etc.).
+### lang.json
+It contains all the strings that the bot uses to create its Discord information. (Slash commands descriptions, tags, etc.).
 
-### Taboo
+### taboo.json
 It contains the current (and former) taboo data. Currently, it's based on the ArkhamDB Taboos API response.
 
-### Tarot
+### tarot.json
 It contains the information for the RTCU Tarot Cards.
 
 - `name`: The name of the tarot card
