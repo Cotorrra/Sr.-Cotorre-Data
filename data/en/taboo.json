@@ -400,5 +400,14 @@
         "text": "This card gains the Exceptional keyword."
       }
     ]
+  },
+  {
+    "id": 0,
+    "code": "000",
+    "name": "No Taboo",
+    "active": 1,
+    "date_start": "2016-10-21",
+    "date_update": "2016-10-21",
+    "cards": []
   }
 ]

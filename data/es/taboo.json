@@ -238,7 +238,7 @@
       },
       {
         "code": "04309",
-        "text": "Al final de esta prueba de habilidad esta obtiene: \u00abRetira No va m\u00e1s de la partida.\u00bb"
+        "text": "Al final de esta prueba de habilidad esta obtiene: \"Retira No va más de la partida.\""
       },
       {
         "code": "05116",
@@ -254,7 +254,7 @@
       },
       {
         "code": "06195",
-        "text": "La capacidad [action] de esta carta ahora dice: \u00ab[action] Gasta 1 munici\u00f3n: \u003cb\u003eCombatir.\u003c\/b\u003e Recibes +2 [combat] para este ataque. Si es revelada una ficha de caos que no contenga un modificador negativo durante este ataque, este ataque inflige +2 de da\u00f1o.\u00bb"
+        "text": "La capacidad [action] de esta carta ahora dice: \"[action] Gasta 1 munición: <b>Combatir.<\/b> Recibes +2 [combat] para este ataque. Si es revelada una ficha de caos que no contenga un modificador negativo durante este ataque, este ataque inflige +2 de daño.\""
       },
       {
         "code": "02026",
@@ -400,5 +400,14 @@
         "text": "This card gains the Exceptional keyword."
       }
     ]
+  },
+  {
+    "id": 0,
+    "code": "000",
+    "name": "No Taboo",
+    "active": 1,
+    "date_start": "2016-10-21",
+    "date_update": "2016-10-21",
+    "cards": []
   }
 ]
