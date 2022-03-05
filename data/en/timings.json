@@ -1,6 +1,6 @@
 {
   "framework": {
-    "Mythos phase": [
+    "M": {"Mythos phase": [
       "<i>(skip during first round of game)</i>",
       "1.1 Round begins. Mythos phase begins.",
       "1.2 Place 1 doom on the current agenda.",
@@ -9,8 +9,8 @@
       "[free] Player Window",
       "1.5 Mythos phase ends.",
       "<i>Proceed to Investigation Phase.</i>"
-    ],
-    "Investigation phase": [
+    ]},
+    "I": {"Investigation phase": [
       "2.1 Investigation phase begins.",
       "[free] Player Window",
       "2.2 Next investigator’s turn begins.",
@@ -19,8 +19,8 @@
       "2.2.2 Investigator’s turn ends.\nIf an investigator has not yet taken a turn this phase, return to 2.2.\nIf each investigator has taken a turn this phase, proceed to 2.3.",
       "2.3 Investigation phase ends.",
       "<i>Proceed to Enemy Phase.</i>"
-    ],
-    "Enemy phase": [
+    ]},
+    "E": {"Enemy phase": [
       "3.1 Enemy phase begins.",
       "3.2 Hunter enemies move.",
       "[free] Player Window",
@@ -28,8 +28,8 @@
       "[free] Player Window",
       "3.4 Enemy phase ends.",
       "<i>Proceed to Upkeep Phase.</i>"
-    ],
-    "Upkeep phase": [
+    ]},
+    "U": {"Upkeep phase": [
       "4.1 Upkeep phase begins.",
       "[free] Player Window",
       "4.2 Reset actions.",
@@ -38,8 +38,8 @@
       "4.5 Each investigator checks hand size.",
       "4.6 Upkeep phase ends. Round ends.",
       "<i>Proceed to Mythos Phase of next game round.</i>"
-    ],
-    "Skill Test Timing": [
+    ]},
+    "S": {"Skill Test Timing": [
       "ST.1 Determine skill of test.\nSkill test of that type begins.",
       "[free] Player Window",
       "ST.2 Commit cards from hand to skill test.",
@@ -50,6 +50,6 @@
       "ST.6 Determine success/failure of skill test.",
       "ST.7 Apply skill test results.",
       "ST.8 Skill test ends."
-    ]
+    ]}
   }
 }
