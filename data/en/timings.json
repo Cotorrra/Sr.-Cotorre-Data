@@ -15,8 +15,8 @@
       "[free] Player Window",
       "2.2 Next investigator’s turn begins.",
       "[free] Player Window",
-      "2.2.1 Active investigator may take an action, if able.\nIf an action was taken, return to previous player window.\nIf no action was taken, proceed to 2.2.2.",
-      "2.2.2 Investigator’s turn ends.\nIf an investigator has not yet taken a turn this phase, return to 2.2.\nIf each investigator has taken a turn this phase, proceed to 2.3.",
+      "2.2.1 Active investigator may take an action, if able.\n- If an action was taken, return to previous player window.\n- If no action was taken, proceed to 2.2.2.",
+      "2.2.2 Investigator’s turn ends.\n- If an investigator has not yet taken a turn this phase, return to 2.2.\n- If each investigator has taken a turn this phase, proceed to 2.3.",
       "2.3 Investigation phase ends.",
       "<i>Proceed to Enemy Phase.</i>"
     ]},
@@ -24,7 +24,7 @@
       "3.1 Enemy phase begins.",
       "3.2 Hunter enemies move.",
       "[free] Player Window",
-      "3.3 Next investigator resolves engaged enemy attacks.\nIf an investigator has not yet resolved enemy attacks this phase, return to previous player window. \nAfter final investigator resolves engaged enemy attacks, proceed to next player window.",
+      "3.3 Next investigator resolves engaged enemy attacks.\n- If an investigator has not yet resolved enemy attacks this phase, return to previous player window. \n- After final investigator resolves engaged enemy attacks, proceed to next player window.",
       "[free] Player Window",
       "3.4 Enemy phase ends.",
       "<i>Proceed to Upkeep Phase.</i>"
@@ -40,7 +40,7 @@
       "<i>Proceed to Mythos Phase of next game round.</i>"
     ]},
     "S": {"Skill Test Timing": [
-      "ST.1 Determine skill of test.\nSkill test of that type begins.",
+      "ST.1 Determine skill of test.\n- Skill test of that type begins.",
       "[free] Player Window",
       "ST.2 Commit cards from hand to skill test.",
       "[free] Player Window",
