@@ -57,8 +57,12 @@
     "ahe_description": "Busca cartas de encuentros en ArkhamDB.",
     "ahb_description": "Busca cartas traseras en ArkhamDB.",
     "ahTarot_description": "Busca cartas (o al azar) de Tarot del Regreso al Circulo Roto.",
-    "ahFramework_description": "Muestra al estructura de las fases del juego o de una prueba de habilidad.",
+    "ahFramework_description": "Muestra la estructura de las fases del juego o de una prueba de habilidad.",
+    "ahRandom_description": "Devuelve una carta de jugador que no es de historia al azar dado los parámetros dados.",
+    "ahList_description": "Devuelve hasta 10 cartas de jugador que no son de historia que cumplen los parámetros dados.",
+    "ahWho_description": "Busca una carta de jugador que no sea de historia, luego devuelve una carta de todos Investigadores mostrando si pueden o no llevar la carta en su mazo.",
     "name_description": "Nombre de la carta",
+    "trait_description": "Rasgo(s) de la carta, puedes incluir más de uno separando por comas. (ej: Aliado, Viajero)",
     "level_description": "Nivel de la carta",
     "faction_description": "Clase de la carta",
     "sub_description": "Subtítulo de la carta",
@@ -78,6 +82,7 @@
     "enemy_phase": "Fase de Enemigos",
     "upkeep_phase": "Fase de Mantenimiento",
     "skill_test": "Resolución de prueba de habilidad",
-    "self_delete": "Eliminar"
+    "self_delete": "Eliminar",
+    "ahList_title": "Cartas encontradas:"
     }
 }

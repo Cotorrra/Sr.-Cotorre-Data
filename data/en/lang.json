@@ -58,7 +58,11 @@
     "ahb_description": "Search for card backs.",
     "ahTarot_description": "Search (or gives one at random) for Tarot cards.",
     "ahTiming_description": "Shows the timing of a game's phase or the skill tests.",
+    "ahRandom_description": "Gets a random non-story player card that matches the criteria given.",
+    "ahList_description": "Lists up to 10 non-story player cards that matches the criteria given.",
+    "ahWho_description": "Searches for a non-story player card, then returns a table of all Investigators showing if they can include it in their deck.",
     "name_description": "Card Name",
+    "trait_description": "Card Traits(s), you can include more than one separating by commas (ej: Ally, Wayfarer)",
     "level_description": "Card Level",
     "faction_description": "Card Class",
     "sub_description": "Card subtitle",
@@ -78,6 +82,7 @@
     "enemy_phase": "Enemy Phase",
     "upkeep_phase": "Upkeep Phase",
     "skill_test": "Skill Test Timing",
-    "self_delete": "Delete"
+    "self_delete": "Delete",
+    "ahList_title": "Cards found:"
     }
 }
