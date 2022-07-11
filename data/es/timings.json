@@ -18,7 +18,7 @@
       "2.2.1 El investigador activo puede realizar una acción si es posible.\n- Si se ha realizado una acción, vuelve a la oportunidad de los jugadores anterior. \n- Si no se ha realizado una acción, pasa al 2.2.2.",
       "2.2.2 Termina el turno del investigador. \n- Si hay algún investigador que aún no haya jugado su turno en esta fase, vuelve al 2.2.\n- Si todos los investigadores han jugado un turno en esta fase, pasa al 2.3.",
       "2.3 Termina la fase de Investigación.",
-      "<i>Pasa a la fase de Enemigos./i>"
+      "<i>Pasa a la fase de Enemigos.</i>"
     ]},
     "E": {"Fase de Enemigos": [
       "3.1 Comienza la fase de Enemigos.",
