@@ -79,6 +79,7 @@
     "tarot_title": "Tarot Card",
     "tarot_up_name": "Normal",
     "tarot_down_name": "Inverted",
+    "tarot_orientation": "Orientation drawn",
     "timings_type_desc": "Game phase or Skill test timing.",
     "mythos_phase": "Mythos Phase",
     "investigation_phase": "Investigation Phase",

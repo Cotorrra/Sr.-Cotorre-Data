@@ -79,6 +79,7 @@
     "tarot_title": "Carta de Tarot",
     "tarot_up_name": "Normal",
     "tarot_down_name": "Invertido",
+    "tarot_orientation": "Orientation robada",
     "timings_type_desc": "Secuencia de la Fase del juego o de una prueba de habilidad.",
     "mythos_phase": "Fase de Mitos",
     "investigation_phase": "Fase de Investigación",
