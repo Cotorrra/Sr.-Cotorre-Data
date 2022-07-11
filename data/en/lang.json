@@ -67,8 +67,7 @@
     "level_description": "Card Level",
     "faction_description": "Card Class",
     "sub_description": "Card subtitle",
-    "pack_description": "Pack Name",
-    "cycle_description": "Cycle",
+    "pack_description": "Cycle",
     "text_description": "Printed Card Rules Text (for symbols type it like this: [auto_fail])",
     "deck_code_desc": "Deck ID",
     "deck_type_desc": "Deck type (deck or decklist)",
@@ -86,8 +85,6 @@
     "upkeep_phase": "Upkeep Phase",
     "skill_test": "Skill Test Timing",
     "self_delete": "Delete",
-    "ahList_title": "Cards found:",
-    "empty_query_title": "Empty command",
-    "empty_quedy_desc": "I didnt find any card, because you didnt put any data within the command!\n Please, wait for the option menu to show up to enter your query.",
+    "ahList_title": "Cards found:"
     }
 }
