@@ -1,0 +1,599 @@
+{"cards": [
+  {
+        "back_flavor": "This is a placeholder for Carson Sinclair. The back of this card will be updated when we know Carson's deckbuilding.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): \"As you wish\", Selfless to a Fault, 1 random basic weakness.",
+        "code": "09001",
+        "deck_limit": 1,
+        "deck_options": [
+            { "faction": ["guardian", "neutral"], "level": { "min": 0, "max": 5 } }
+        ],
+        "deck_requirements": "size:30, card:09002, card:09003, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "guardian",
+        "health": 6,
+        "illustrator": "Magali Villeneuve",
+        "is_unique": true,
+        "name": "Carson Sinclair",
+        "pack_code": "tskp",
+        "position": 1,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 2,
+        "skill_intellect": 2,
+        "skill_combat": 2,
+        "skill_willpower": 2,
+        "subname": "The Butler",
+        "text": "You may take an additional action during your turn, which can only be used on the below [action] ability.\n[action]: Choose another investigator at your location. They immediately take an action as if it were their turn. (Limit once per round for each investigator.)\n[elder_sign] effect: +0. Draw 1 card. You may resolve this effect anytime another investigator at your location resolves their [elder_sign] effect.",
+        "traits": "Assistant.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "09002",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Tiziano Baracchi",
+        "name": "\"As you wish\"",
+        "pack_code": "tskp",
+        "position": 2,
+        "quantity": 1,
+        "restrictions": "investigator:09001",
+        "skill_wild": 3,
+        "text": "Carson Sinclair deck only.\nCommit only to a skill test being performed by another investigator.\nIf this test succeeds, the performing investigator draws 1 card. If this test fails, you draw 1 card.",
+        "traits": "Practiced. Expert.",
+        "type_code": "skill"
+    },
+    {
+        "code": "09003",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Sarah Lindstrom",
+        "name": "Selfless to a Fault",
+        "pack_code": "tskp",
+        "position": 3,
+        "quantity": 1,
+        "restrictions": "investigator:09003",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Put Selfless to a Fault into play in your threat area.\n<b>Forced</b> - At the end of your turn, if you did not commit at least 1 card to a skill test performed by another investigator this turn: Take 1 horror and shuffle Selfless to a Fault into your deck.",
+        "traits": "Flaw.",
+        "type_code": "treachery"
+    },
+    {
+        "back_flavor": "This is a placeholder for Amina Zidane. The back of this card will be updated when we know Amina's deckbuilding.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Word of Woe, Word of Weal, Deafening Silence, 1 random basic weakness.",
+        "code": "09011",
+        "deck_limit": 1,
+        "deck_options": [
+            { "faction": ["mystic", "neutral"], "level": { "min": 0, "max": 5 } }
+        ],
+        "deck_requirements": "size:30, card:09011, card:09012, card:09013, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "mystic",
+        "flavor": "\"What is it trying to tell me?\"",
+        "health": 5,
+        "illustrator": "Aleksander Karcz",
+        "is_unique": true,
+        "name": "Amina Zidane",
+        "pack_code": "tskp",
+        "position": 11,
+        "quantity": 1,
+        "sanity": 9,
+        "skill_agility": 3,
+        "skill_intellect": 3,
+        "skill_combat": 3,
+        "skill_willpower": 3,
+        "subname": "The Operator",
+        "text": "[reaction] When you play an asset: Reduce its resouce cost by 3. It enters play with 1 doom on it. (Limit once per round.)\n[elder_sign] effect: +2. You may move all doom from a card at your location to another card at your location.",
+        "traits": "Chosen. Cursed.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "09012",
+        "cost": 2,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Aleksander Karcz",
+        "name": "Word of Woe",
+        "pack_code": "tskp",
+        "position": 12,
+        "quantity": 1,
+        "restrictions": "investigator:09011",
+        "text": "Amina Zidane deck only.\nFast. Play only during your turn.\nPlace 1 doom on an asset you control to resolve an [action] ability on it, ignoring all costs <i>(including its [action] cost)</i>. Then, if Word of Weal is in your discard pile, you may shuffle it into your deck.",
+        "traits": "Pact.",
+        "type_code": "event"
+    },
+    {
+        "code": "09013",
+        "cost": 0,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Aleksander Karcz",
+        "name": "Word of Weal",
+        "pack_code": "tskp",
+        "position": 13,
+        "quantity": 1,
+        "restrictions": "investigator:09011",
+        "text": "Amina Zidane deck only.\nFast. Play when you perform a skill test on an asset with 1 or more doom on it.\nAdd your [willpower] to your skill value for this test. Then, if Word of Woe is in your discard pile, you may shuffle it into your deck.",
+        "traits": "Pact.",
+        "type_code": "event"
+    },
+    {
+        "code": "09014",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "\"UNINTELLIGIBLE SQUIGGLES\"",
+        "illustrator": "Adam Doyle",
+        "name": "Deafening Silence",
+        "pack_code": "tskp",
+        "position": 14,
+        "quantity": 1,
+        "restrictions": "investigator:09011",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Move 1 doom from an asset you control to the current agenda. This may cause the current agenda to advance. If no doom is moved in this way, shuffle Deafening Silence back into your deck.",
+        "traits": "Omen.",
+        "type_code": "treachery"
+    },
+    {
+        "back_flavor": "Charlie Kane promised the people of Arkham a safer future. He made a lot of promises - lower taxes, better schools, less crime. It was part of the job, after all. And although he sometimes had to do things he wasn't proud of, Charlie always did work for the greater good. So when he started hearing the reports, he put the people first. Of course, he couldn't tell anyone. Widespread panic would not serve the public good. Besides, who'd believe him? Still, Charlie has always had connections in town. So he made a few calls, put a task force together, and went to work.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Class Choices</b>: At deck creation, choose 2 classes ([guardian], [seeker], [rogue], [mystic], or [survivor]).\n<b>Deckbuilding Options</b>: [[Ally]] cards level 0-5, Neutral cards level 0-5, cards from your chosen classes level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Bonnie Walsh, Burden of Leadership, 1 random basic weakness.",
+        "code": "09018",
+        "deck_limit": 1,
+        "deck_options": [
+            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
+            { "trait": ["ally"], "level": { "min": 0, "max": 5 } },
+            {
+                "name": "Class Choice",
+                "id": "faction_1",
+                "faction_select": ["guardian", "seeker", "rogue", "mystic", "survivor"],
+                "level": { "min": 0, "max": 2 }
+            },
+            {
+                "name": "Class Choice",
+                "id": "faction_2",
+                "faction_select": ["guardian", "seeker", "rogue", "mystic", "survivor"],
+                "level": { "min": 0, "max": 2 }
+            }
+        ],
+        "deck_requirements": "size:30, card:09019, card:09020, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "neutral",
+        "flavor": "\"It can be arranged. It's just a matter of acceptable terms.\"",
+        "health": 6,
+        "illustrator": "Magali Villeneuve",
+        "is_unique": true,
+        "name": "Charlie Kane",
+        "pack_code": "tskp",
+        "position": 18,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 1,
+        "skill_intellect": 1,
+        "skill_combat": 1,
+        "skill_willpower": 1,
+        "subname": "The Politician",
+        "text": "You have 3 additional ally slots.\n[fast] During a skill test you are performing, exhaust an [[Ally]] asset you control: For this test, you get +1 skill value, plus an additional +1 for each skill icon that [[Ally]] asset has that matches this test's type.\n[elder_sign] effect: +3. Ready an [[Ally]] asset at your location.",
+        "traits": "Civic. Socialite.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "09019",
+        "cost": 3,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "\"Don't forget you have a 9 p.m. appointment with Mr. Sanford. Shall I book your usual table at La Bella Luna? Also, you bought me a wristwatch for my birthday. Thank you very much.\"",
+        "health": 2,
+        "illustrator": "Isuardi Therianto",
+        "is_unique": true,
+        "name": "Bonnie Walsh",
+        "pack_code": "tskp",
+        "position": 19,
+        "quantity": 1,
+        "restrictions": "investigator:09018",
+        "sanity": 2,
+        "skill_wild": 2,
+        "slot": "Ally",
+        "text": "Charlie Kane deck only.\n[reaction] After you exhaust Bonnie Walsh: Ready another [[Ally]] asset you control. (Limit once per round.)",
+        "traits": "Ally. Civic. Assistant.",
+        "type_code": "asset"
+    },
+    {
+        "code": "09020",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "\"I tell myself it was for the greater good. Was it, Bonnie?\"",
+        "illustrator": "Borja Pindado",
+        "name": "Burden of Leadership",
+        "pack_code": "tskp",
+        "position": 20,
+        "quantity": 1,
+        "restrictions": "investigator:09018",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - If you control no [[Ally]] assets, shuffle Burden of Leadership back into your deck. Otherwise, for each [[Ally]] asset you control, either exhaust it or deal it 1 direct damage and 1 direct horror.",
+        "traits": "Flaw.",
+        "type_code": "treachery"
+    },
+    {
+        "code": "09021",
+        "cost": 4,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "You cobbled this suit together yourself from the remnants of ancient armor, mixed with more modern \"bulletproof\" plating used in the Great War. It's not much, yet. But with some improvements, maybe it'll be enough.",
+        "customization_options": [
+            {
+                "xp": 1,
+                "real_traits": "Item. Armor. Relic.",
+                "real_slot": "Arcane"
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 2,
+                "health": 2
+            },
+            {
+                "xp": 2,
+                "sanity": 2
+            },
+            {
+                "xp": 2,
+                "cost": -1
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3
+            }
+        ],
+        "customization_text": "□ <b>Enchanted.</b> Hunter's Armor gains the [[Relic]] trait and takes up an arcane slot instead of a body slot.\n□□ <b>Protective Runes.</b> Hunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n□□ <b>Durable.</b> Hunter's armor gains +2 health.\n□□ <b>Hallowed.</b> Hunter's Armor gains +2 sanity.\n□□ <b>Lightweight.</b> Hunter's Armor gets -1 cost and playing it does not provoke attacks of opportunity.\n□□□ <b>Hexdrinker.</b> After 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\n□□□ <b>Armor of Thorns.</b> After 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy",
+        "health": 2,
+        "illustrator": "Rob Laskey",
+        "name": "Hunter's Armor",
+        "pack_code": "tskp",
+        "position": 21,
+        "quantity": 2,
+        "sanity": 2,
+        "skill_willpower": 1,
+        "slot": "Body",
+        "text": "Customizable.",
+        "traits": "Item. Armor.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09022",
+        "cost": 4,
+        "customization_options": [
+            {
+                "xp": 1,
+                "cost": -1,
+                "real_traits": "Item. Weapon. Melee. Relic."
+            },
+            {
+                "xp": 1,
+                "real_text": "- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror."
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3
+            }
+        ],
+        "customization_text": "□ <b>Heirloom.</b> This asset gets -1 cost and gains the [[Relic]] trait.\n□ <b>Inscription of Glory.</b> Add this inscription: \"- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.\".\n□ <b>Inscription of Elders.</b> Add this inscription: \"- <i>Elders</i> - If this attack succeeds by an amount equal or greater than your location's shroud, discover 1 clue at your location.\"\n□ <b>Inscription of the Hunt.</b> Add this inscription: \"- <i>Hunt</i> - Immediately move to a connecting location or engage an enemy at your location.\"\n□ <b>Inscription of Fury.</b> Add this inscription: \"- <i>Fury</i> - If this attack is successful, in addition to its standard damage, deal 1 damage to each other enemy engaged with you.\"\n□□□ <b>Ancient Power.</b> You may imbue the same inscription up to three times.\n□□□ <b>Saga.</b> Replenish 2 of Runic Axe's charges at the start of each round, instead of only 1.\n□□□ <b>Scriptweaver.</b> For every charge spent, you may imbue the axe with up to two different inscriptions.",
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "illustrator": "Pizoloid Studios",
+        "is_unique": true,
+        "name": "Runic Axe",
+        "pack_code": "tskp",
+        "position": 22,
+        "quantity": 2,
+        "skill_combat": 1,
+        "slot": "Hand x2",
+        "text": "Customizable. Uses (4 charges). Replenish 1 of these charges at the start of each round.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack. Before this attack, you may spend any number of charges to imbue the axe with that many different inscriptions --\n- <i>Accuracy</i> - You get an additional +2 [combat] for this attack.\n- <i>Power</i> - This attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09027",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "This is gonna hurt.",
+        "illustrator": "Pixoloid Studios",
+        "name": "Grievous Wound",
+        "pack_code": "tskp",
+        "position": 27,
+        "quantity": 2,
+        "skill_combat": 1,
+        "text": "Fast. Play after you successfully attack a non-[[Elite]] enemy using a [[Melee]] asset.\nAttach Grievous Wound to the attacked enemy.\n<b>Forced</b> - At the end of the round: Deal 1 damage to attached enemy.",
+        "traits": "Tactic.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "09028",
+        "cost": 0,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "\"Think they bought it?\"\n\"They certainly do not suspect the world is ending, Mr. Kane.\"",
+        "illustrator": "Isuardi Therianto",
+        "name": "Motivational Speech",
+        "pack_code": "tskp",
+        "position": 28,
+        "quantity": 2,
+        "skill_intellect": 1,
+        "skill_willpower": 1,
+        "text": "<b>Parley.</b> Choose an investigator at your location. That investigator may play an [[Ally]] asset from their hand, reducing its cost by 3.",
+        "traits": "Spirit.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "09031",
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "illustrator": "Rob Laskey",
+        "name": "Helping Hand",
+        "pack_code": "tskp",
+        "position": 31,
+        "quantity": 2,
+        "text": "You may commit Helping Hand to any type of test. Max 1 committed per test.\nWhile Helping Hand is committed to a skill test, double the skill icons of each other card committed to that test.",
+        "traits": "Innate.",
+        "type_code": "skill",
+        "xp": 0
+    },
+    {
+        "code": "09033",
+        "cost": 4,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "Day 15. The entities appear to be feeding. On what, I cannot imagine. I dare not approach further.",
+        "health": 2,
+        "illustrator": "Sedone Thongvilay",
+        "name": "Field Agent",
+        "pack_code": "tskp",
+        "position": 33,
+        "quantity": 2,
+        "sanity": 2,
+        "skill_agility": 1,
+        "skill_intellect": 1,
+        "slot": "Ally",
+        "text": "You get +1 [intellect].\n[fast] Exhaust Field Agent and deal 1 horror to it: Discover 1 clue at your location.",
+        "traits": "Ally. Agency.",
+        "type_code": "asset",
+        "xp": 2
+    },
+    {
+        "code": "09047",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "flavor": "\"Don't you realize what this means?\"\n\"Why don't you calm down and tell me very slowly?\"",
+        "illustrator": "Stephen Somers",
+        "name": "Captivating Discovery",
+        "pack_code": "tskp",
+        "position": 47,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_intellect": 1,
+        "text": "Search the top 6 cards of your deck. You may place up to 3 of your clues on your location. For each clue placed in this way, choose and add 2 of the searched cards to your hand. Shuffle your deck.",
+        "traits": "Insight.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "09067",
+        "cost": 0,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "illustrator": "Aleksander Karcz",
+        "name": "\"I'll take that!\"",
+        "pack_code": "tskp",
+        "position": 67,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_intellect": 1,
+        "text": "Fast. Play when you successfully evade a [[Humanoid]] enemy or successfully investigate.\nPlay an [[Item]] asset from your hand, reducing its cost by X, where X is the amount you succeeded by. Attach \"I'll take that!\" to that asset. Attached asset gains [[Illicit]].",
+        "traits": "Trick. Upgrade. Illicit.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "09080",
+        "cost": 2,
+        "customization_options": [
+            {
+                "xp": 1,
+                "health": 3
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 2,
+                "choice": "remove_slot"
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 5
+            }
+        ],
+        "customization_text": "□ <b>Armored Carapace.</b> Summoned Servitor gains a health value of 3. It can be assigned damage dealt to any investigator at its location.\n□ <b>Claws that Clatch.</b> Add this action: \"- <b>Fight.</b> You fight any enemy at this location with a base [combat] of 4. Ignore the aloof and retaliate keywords for this attack.\"\n□ <b>Jaws that Snatch.</b> Add this action: \"- <b>Evade.</b> You attempt to evade any enemy at this location with a base [agility] of 4. Ignore the alert keyword for this evasion attempt.\"\n□ <b>Eyes of Flame.</b> Add this action: \"- <b>Investigate.</b> You investigate this location with a base [intellect] of 4.\"\n□ <b>Wings of Night.</b> After Summoned Servitor moves from your location to a connecting location, you may move to that location as well.\n□□ <b>Dominance.</b> Summoned Servitor no longer takes up an (circle one): arcane / ally slot.\n□□□ <b>Dreaming Call.</b> Instead of discarding another asset you control in order to play Summoned Servitor, you may return the asset to its owner's hand.\n□□□□□ <b>Dæmonic Influence.</b> Summoned Servitor can take 2 different actions instead of 1 during each of your turns.",
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "Anders Finer",
+        "name": "Summoned Servitor",
+        "pack_code": "tskp",
+        "position": 80,
+        "quantity": 2,
+        "skill_willpower": 1,
+        "slot": "Ally. Arcane.",
+        "text": "Customizable. As an additional cost to play Summoned Servitor, you must discard another asset you control.\nSummoned Servitor enters play at your location. It can only take 1 action during each of your turns, which can only be used to take the following action:\n- Move Summoned Servitor to a connecting location.",
+        "traits": "Summon.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09081",
+        "cost": 3,
+        "customization_options": [
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1,
+                "real_text": "- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value."
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3,
+                "deck_limit": 3
+            }
+        ],
+        "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister</b> When you play with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "Anders Finer",
+        "name": "Power Word",
+        "pack_code": "tskp",
+        "position": 81,
+        "quantity": 3,
+        "skill_intellect": 1,
+        "text": "Customizable. Fast. Play only during your turn.\nAttach to a non-[[Elite]] enemy at your location.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it a command (limit once per round per command) -\n- <i>\"Go.\"</i> This enemy moves once in a direction of your choice.\n- <i>\"Cower.\"</i> This enemy exhausts.",
+        "traits": "Spell.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "09082",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "Steve Hamilton",
+        "name": "Ceremonial Sickle",
+        "pack_code": "tskp",
+        "position": 82,
+        "quantity": 2,
+        "skill_combat": 1,
+        "text": "[action]: <b>Fight.</b> Either use your [willpower] or get +1 [combat] for this attack. When you initiate this ability, choose one - \n- Exhaust Ceremonial Sickle and place 1 doom on it to get +1 skill value and deal +1 damage for this attack.\n- If this attack defeats an enemy, remove 1 doom from Ceremonial Sickle.",
+        "traits": "Item. Charm. Weapon. Melee.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09083",
+        "cost": 4,
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "Tiziano Baracchi",
+        "name": "Dowsing Rod",
+        "pack_code": "tskp",
+        "position": 83,
+        "quantity": 2,
+        "skill_intellect": 1,
+        "text": "[action]: <b>Investigate.</b> Either use your [willpower] or get +1 [intellect] for this investigation. When you initiate this ability, choose one - \n- Exhaust Dowsing Rod and place 1 doom on it to move to a connection location.\n- If this investigation discovers the last clue at a location, remove 1 doom from Dowsing Rod.",
+        "traits": "Item. Charm.",
+        "type_code": "asset",
+        "xp": 0
+    },
+
+    {
+        "code": "09099",
+        "cost": 3,
+        "customization_options": [
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 4
+            }
+        ],
+        "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "flavor": "But wait - there's more!",
+        "illustrator": "JB Casacop",
+        "name": "Pocket Multi Tool",
+        "pack_code": "tskp",
+        "position": 99,
+        "quantity": 2,
+        "skill_wild": 1,
+        "slot": "Hand",
+        "text": "Customizable. Limit 1 per investigator.\n[fast] During a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
+        "traits": "Item. Tool.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09103",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "health": 3,
+        "illustrator": "Sam Perin",
+        "name": "Improvised Shield",
+        "pack_code": "tskp",
+        "position": 103,
+        "quantity": 2,
+        "slot": "Hand",
+        "text": "Improvised Shield can only be played from your discard pile.\n<b>Forced</b> - When Improvised Shield is defeated: Shuffle it into your deck instead of discarding it.",
+        "traits": "Item. Armor. Improvised.",
+        "type_code": "asset",
+        "xp": 0
+      }
+  ]}

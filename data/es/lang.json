@@ -87,6 +87,8 @@
     "upkeep_phase": "Fase de Mantenimiento",
     "skill_test": "Resolución de prueba de habilidad",
     "self_delete": "Eliminar",
-    "ahList_title": "Cartas encontradas:"
+    "ahList_title": "Cartas encontradas:",
+    "ahPreview_description": "Busca cartas que aún no han salido, cartas beta, etc.",
+    "costumization_title": "Mejoras Disponibles:"
     }
 }

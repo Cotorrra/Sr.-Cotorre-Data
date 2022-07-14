@@ -87,6 +87,8 @@
     "upkeep_phase": "Upkeep Phase",
     "skill_test": "Skill Test Timing",
     "self_delete": "Delete",
-    "ahList_title": "Cards found:"
+    "ahList_title": "Cards found:",
+    "ahPreview_description": "Looks for cards that havent been released, beta cards, etc.",
+    "costumization_title": "Avaliable Upgrades:"
     }
 }
