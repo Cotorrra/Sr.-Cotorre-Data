@@ -89,6 +89,7 @@
     "self_delete": "Eliminar",
     "ahList_title": "Cartas encontradas:",
     "ahPreview_description": "Busca cartas que aún no han salido, cartas beta, etc.",
-    "costumization_title": "Mejoras Disponibles:"
+    "costumization_title": "Mejoras Disponibles:",
+    "preview_set": "Esta es una carta beta/avance"
     }
 }
