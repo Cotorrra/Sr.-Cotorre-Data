@@ -7,8 +7,8 @@
       "faction2_code": "mystic",
       "illustrator": "Dualbrush",
       "name": "Dragon Pole (beta)",
-      "pack_code": "???",
-      "position": 2022,
+      "pack_name": "Create-a-card Stream 2022",
+      "position": 2,
       "quantity": 1,
       "skill_willpower": 1,
       "skill_combat": 1,
@@ -17,7 +17,8 @@
       "xp": 3,
       "traits": "Item. Weapon. Melee.",
       "type_code": "asset",
-      "cost": 4
+      "cost": 4,
+      "real_slot": "Hand x2"
     },
     {
       "code": "999999",
@@ -26,8 +27,8 @@
       "illustrator": "Andreia Ugrai",
       "name": "Alice Luxley (beta)",
       "subname": "Fearless Flatfoot",
-      "pack_code": "???",
-      "position": 2022,
+      "pack_name": "Create-a-card Stream 2022",
+      "position": 1,
       "quantity": 1,
       "skill_combat": 1,
       "skill_intellect": 1,
@@ -39,17 +40,18 @@
       "cost": 3,
       "traits": "Ally. Detective. Police.",
       "type_code": "asset",
-      "slot": "Ally"
+      "real_slot": "Ally"
     },
     {
       "faction_code": "guardian",
       "faction_name": "Guardian",
-      "position": 2020,
+      "position": 1,
       "exceptional": false,
       "myriad": false,
       "name": "Guard Dog (beta)",
       "cost": 3,
       "text": "[free] Exhasut Guard Dog: Engage an enemy at your location. That enemy attacks you.\n[reaction] When an enemy attack deals damage or horror to Guard Dog: Deal 1 damage to the attacking enemy.\n<b>Card designed by the Council-in-Exile at Arkham Nights 2020</b>",
+      "pack_name": "Create-a-card Stream 2020",
       "quantity": 1,
       "skill_willpower": 1,
       "skill_combat": 1,
@@ -70,7 +72,7 @@
       "type_code": "asset"
     },
     {
-      "position": 2020,
+      "position": 2,
       "exceptional": false,
       "myriad": false,
       "code": "999999",
@@ -78,6 +80,7 @@
       "real_name": "Flashlight",
       "cost": 2,
       "text": "Uses (4 supplies).\n[reaction] When you perform a skill test while investigating or attemting to evade, spend 1 supply: This test gets -2 difficulty..\n<b>Card designed by the Council-in-Exile at Arkham Nights 2020</b>",
+      "pack_name": "Create-a-card Stream 2020",
       "quantity": 2,
       "skill_intellect": 1,
       "skill_agility": 1,
@@ -101,6 +104,7 @@
       "illustrator": "Tiziano Baracchi",
       "name": "\"As you wish\"",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 2,
       "quantity": 1,
       "restrictions": "investigator:09001",
@@ -116,6 +120,7 @@
       "illustrator": "Sarah Lindstrom",
       "name": "Selfless to a Fault",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 3,
       "quantity": 1,
       "restrictions": "investigator:09003",
@@ -125,6 +130,96 @@
       "type_code": "treachery"
     },
     {
+      "back_flavor": "When the Taíno artifacts went missing from the Miskatonic Museum, Kymani was hired to assess the museum's liability. Of course, Kymani already knew who the thief was - it has been their own heist, all along. But Kymani had no interest in selling the relics. As far as Kymani was concerned, they weren't the one who really stole them. No; Kymani had sent the historical artifacts back home, where they truly belonged. The museum and the insurance company see only a villain to catch, but Kymani is faster, smarter, and better.",
+      "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, [[Tool]] cards level 0-4, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Grappling Hook, Agent Fletcher, 1 random basic weakness.\n<b>Bonus Experience</b>: You begin the campaign with 5 additional experience (does not affect the number of weaknesses you must take in Standalone Mode).",
+      "code": "09008",
+      "deck_limit": 1,
+      "deck_options": [
+        {
+          "faction": [
+            "neutral",
+            "rogue"
+          ],
+          "level": {
+            "min": 0,
+            "max": 5
+          }
+        },
+        {
+          "trait": [
+            "tool"
+          ],
+          "level": {
+            "min": 0,
+            "max": 4
+          }
+        }
+      ],
+      "deck_requirements": "size:30, card:09009, card:09010, random:subtype:basicweakness",
+      "double_sided": true,
+      "faction_code": "rogue",
+      "flavor": "\"This doesn't belong to you.\"",
+      "health": 8,
+      "illustrator": "Aleksander Karcz",
+      "is_unique": true,
+      "name": "Kymani Jones",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 8,
+      "quantity": 1,
+      "sanity": 6,
+      "skill_agility": 5,
+      "skill_intellect": 2,
+      "skill_combat": 2,
+      "skill_willpower": 3,
+      "subname": "The Security Consultant",
+      "text": "[fast]: Engage an exhausted enemy at your location.\n[reaction] When you attempt to evade an exhausted non-[[Elite]] enemy: Add your [intellect] to your skill value for this attempt. If you succeed by at least X, discard that enemy. X is that enemy's remaining health.\n[elder_sign] effect: +1. If there is an exhausted enemy at your location, you automatically succeed instead.",
+      "traits": "Criminal.",
+      "type_code": "investigator"
+    },
+    {
+      "code": "09009",
+      "cost": 3,
+      "deck_limit": 1,
+      "faction_code": "neutral",
+      "illustrator": "JB Casacop",
+      "name": "Grappling Hook",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 9,
+      "quantity": 1,
+      "restrictions": "investigator:09008",
+      "skill_agility": 1,
+      "skill_intellect": 1,
+      "skill_wild": 1,
+      "slot": "Hand",
+      "text": "Kymani Jones deck only.\nActions performed using Grappling Hook do not provoke attacks of opportunity.\n[action][action] Exhaust Grappling Hook: Take up to 3 different basic actions from the following list, in any order (engage, evade, investigate, or move). If you investigate, use your [agility] instead of your [intellect].",
+      "traits": "Item. Tool.",
+      "type_code": "asset"
+    },
+    {
+      "code": "09010",
+      "deck_limit": 1,
+      "enemy_damage": 1,
+      "enemy_evade": 3,
+      "enemy_fight": 2,
+      "enemy_horror": 1,
+      "faction_code": "neutral",
+      "flavor": "\"I know who you really are, Jones.\"",
+      "health": 3,
+      "illustrator": "Lin Hsiang",
+      "name": "Agent Fletcher",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 10,
+      "quantity": 1,
+      "restrictions": "investigator:09008",
+      "subtype_code": "weakness",
+      "text": "Alert. Hunter.\n<b>Prey</b> - Kymani Jones only.\nWhile Kymani Jones is evading Agent Fletcher, reduce their [intellect] value to 0.",
+      "traits": "Humanoid. Coterie. Detective.",
+      "type_code": "enemy"
+    },
+    {
       "code": "09012",
       "cost": 2,
       "deck_limit": 1,
@@ -132,6 +227,7 @@
       "illustrator": "Aleksander Karcz",
       "name": "Word of Woe",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 12,
       "quantity": 1,
       "restrictions": "investigator:09011",
@@ -147,6 +243,7 @@
       "illustrator": "Aleksander Karcz",
       "name": "Word of Weal",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 13,
       "quantity": 1,
       "restrictions": "investigator:09011",
@@ -162,6 +259,7 @@
       "illustrator": "Adam Doyle",
       "name": "Deafening Silence",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 14,
       "quantity": 1,
       "restrictions": "investigator:09011",
@@ -234,6 +332,7 @@
       "is_unique": true,
       "name": "Charlie Kane",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 18,
       "quantity": 1,
       "sanity": 6,
@@ -257,6 +356,7 @@
       "is_unique": true,
       "name": "Bonnie Walsh",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 19,
       "quantity": 1,
       "restrictions": "investigator:09018",
@@ -275,6 +375,7 @@
       "illustrator": "Borja Pindado",
       "name": "Burden of Leadership",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 20,
       "quantity": 1,
       "restrictions": "investigator:09018",
@@ -328,6 +429,7 @@
       "illustrator": "Rob Laskey",
       "name": "Hunter's Armor",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 21,
       "quantity": 2,
       "sanity": 2,
@@ -367,13 +469,13 @@
         },
         {
           "xp": 3,
-          "text_change": "replace",
-          "position": 0
+          "text_change": "insert",
+          "position": 1
         },
         {
           "xp": 3,
-          "text_change": "insert",
-          "position": 1
+          "text_change": "replace",
+          "position": 0
         },
         {
           "xp": 4,
@@ -389,6 +491,7 @@
       "is_unique": true,
       "name": "Runic Axe",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 22,
       "quantity": 2,
       "skill_combat": 1,
@@ -407,6 +510,7 @@
       "illustrator": "Pixoloid Studios",
       "name": "Grievous Wound",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 27,
       "quantity": 2,
       "skill_combat": 1,
@@ -424,6 +528,7 @@
       "illustrator": "Isuardi Therianto",
       "name": "Motivational Speech",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 28,
       "quantity": 2,
       "skill_intellect": 1,
@@ -434,12 +539,50 @@
       "xp": 0
     },
     {
+      "code": "09029",
+      "cost": 1,
+      "deck_limit": 2,
+      "faction_code": "guardian",
+      "illustrator": "Rob Laskey",
+      "name": "One in the Chamber",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 29,
+      "quantity": 2,
+      "skill_agility": 1,
+      "skill_combat": 1,
+      "text": "Fast. PLay at the end of an attack or effect that spends the last ammon from a [[Firearm]] asset you control.\nAdd 1 ammo to that asset. You get +3 skill value for your next attack with that asset this round.",
+      "traits": "Fortune. Tactic.",
+      "type_code": "event",
+      "xp": 0
+    },
+    {
+      "code": "09030",
+      "deck_limit": 2,
+      "faction_code": "guardian",
+      "flavor": "\"Aim and pull the damned trigger. It ain't hard, kid.\"",
+      "illustrator": "Carlos Palma Cruchaga",
+      "name": "Fighting Lessons",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 30,
+      "quantity": 2,
+      "skill_agility": 1,
+      "skill_combat": 1,
+      "skill_wild": 1,
+      "text": "Commit only to a skill test during an attack or evasion attempt.\nYou can commit this skill to an investigator's test at any location.",
+      "traits": "Practiced.",
+      "type_code": "skill",
+      "xp": 0
+    },
+    {
       "code": "09031",
       "deck_limit": 2,
       "faction_code": "guardian",
       "illustrator": "Rob Laskey",
       "name": "Helping Hand",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 31,
       "quantity": 2,
       "text": "You may commit Helping Hand to any type of test. Max 1 committed per test.\nWhile Helping Hand is committed to a skill test, double the skill icons of each other card committed to that test.",
@@ -457,6 +600,7 @@
       "illustrator": "Sedone Thongvilay",
       "name": "Field Agent",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 33,
       "quantity": 2,
       "sanity": 2,
@@ -469,6 +613,194 @@
       "xp": 2
     },
     {
+      "code": "09040",
+      "cost": 2,
+      "customization_options": [
+        {
+          "xp": 1,
+          "real_text": "- Heal 2 damage.",
+          "text_change": "append"
+        },
+        {
+          "xp": 1,
+          "real_text": "- Heal 2 horror.",
+          "text_change": "append"
+        },
+        {
+          "xp": 1,
+          "text_change": "append"
+        },
+        {
+          "xp": 1,
+          "text_change": "append"
+        },
+        {
+          "xp": 2,
+          "text_change": "replace",
+          "position": 0
+        },
+        {
+          "xp": 4,
+          "text_change": "insert",
+          "position": 1
+        },
+        {
+          "xp": 5,
+          "text_change": "replace",
+          "position": 1
+        }
+      ],
+      "customization_change": "- Heal 2 damage.\n- Heal 2 horror.\n- Place 1 charge or secret on an asset you control.\n- Move up to 2 times.\nCustomizable. Uses (5 supplies).\nWhen you initiate this skill test, you may increase its difficulty by 2. If you do, increase the value of the effect granted by each option by 1 for this test.\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options (2 options instead if you succeed by 2 or more) -",
+      "customization_text": "□ <b>Mending Distillate.</b> Add this option: \"- Heal 2 damage.\".\n□ <b>Calming Distillate.</b> Add this option: \"- Heal 2 horror.\"\n□ <b>Enlightening Distillate.</b> Add this option: \"- Place 1 charge or secret on an asset you control.\"\n□ <b>Quickening Distillate.</b> Add this option: \"- Move up to 2 times.\"\n□□ <b>Refined.</b> Alchemical Distillation enters play with 2 additional supplies on it.\n□□□□ <b>Empowered.</b> When you initiate this skill test, you may increase its difficulty by 2. If you do, increase the value of the effect granted by each option by 1 for this test.\n□□□□□ <b>Perfected.</b> If you succeed by 2 or more, the chosen investigator may perform two different options instead of one.",
+      "deck_limit": 2,
+      "faction_code": "seeker",
+      "illustrator": "Steven Hamilton",
+      "name": "Alchemical Distillation",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 40,
+      "quantity": 2,
+      "skill_willpower": 1,
+      "slot": "Hand",
+      "text": "Customizable. Uses (3 supplies).\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options -\n- Draw 2 cards.\n- Gain 2 resources.",
+      "traits": "Item. Science.",
+      "type_code": "asset",
+      "xp": 0
+    },
+    {
+      "code": "09041",
+      "cost": 2,
+      "customization_options": [
+        {
+          "xp": 1,
+          "text_change": "insert",
+          "position": 3
+        },
+        {
+          "xp": 1,
+          "text_change": "insert",
+          "position": 3
+        },
+        {
+          "xp": 1,
+          "text_change": "insert",
+          "position": 3
+        },
+        {
+          "xp": 1,
+          "text_change": "insert",
+          "position": 3
+        },
+        {
+          "xp": 2,
+          "text_change": "replace",
+          "position": 4
+        },
+        {
+          "xp": 2,
+          "text_change": "append"
+        },
+        {
+          "xp": 3,
+          "text_change": "append"
+        },
+        {
+          "xp": 4,
+          "text_change": "insert",
+          "position": 4
+        }
+      ],
+      "customization_change": "- You run out of cards in your hand.\n- You are dealt damage or horror.\n- You discard a treachery or enemy from play.\n- You enter a location with 3 or more shroud.\nWhen the chosen criteria is met by any investigator at your location, you may exhaust Empirical Hypothesis to add 1 evidence to it. Other investigators at your location may trigger [fast] abilities on Empirical Hypothesis.\n[fast] Spend 2 evidence: Reduce the cost of the next card you play by 3.\n[fast] Spend 3 evidence: Discover 1 clue at your location.\nAfter you exhaust Empirical Hypothesis, you may resolve its forced effect, choosing a criteria you have not chosen this round. Then, ready it.",
+      "customization_text": "□ <b>Pessimistic Outlook.</b> Add the following criteria:\"you run out of cards in your hand\".\n□ <b>Trial and Error.</b> Add the following criteria: \"you are dealt damage or horror.\"\n□ <b>Independent Variable.</b> Add the following criteria: \"you discard a treachery or enemy from play.\"\n□ <b>Field Research.</b> Add the following criteria: \"you enter a location with 3 or more shroud.\"\n□□ <b>Peer Review.</b> The chosen criteria is met if any investigator at your location meets it, instead of only you. Other investigators at your location may trigger [fast] abilities on Empirical Hypothesis.\n□□ <b>Research Grant.</b> Empirical Hypothesis gains: \"[fast] Spend 2 evidence: Reduce the cost of the next card you play by 3.\"\n□□□ <b>Irrefutable Proof.</b> Empirical Hypothesis gains: \"[fast] Spend 3 evidence: Discover 1 clue at your location.\"\n□□□□ <b>Alternative Hypothesis.</b> After you exhaust Empirical Hypothesis, you may resolve its forced effect, choosing a criteria you have not chosen this round. Then, ready it.",
+      "deck_limit": 2,
+      "faction_code": "seeker",
+      "illustrator": "Isuardi Therianto",
+      "name": "Empirical Hypothesis",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 41,
+      "quantity": 2,
+      "skill_intellect": 1,
+      "text": "Customizable. Limit 1 per investigator.\n<b>Forced</b> - At the start of the round: Choose one of the following criteria for this round -\n- You fail a test by 2 or more.\n- You succeed at a test by 3 or more.\nWhen the chosen criteria is met, you may exhaust Empirical Hypothesis to add 1 evidence to it.\n[fast] Spend 1 evidence: Draw 1 card.",
+      "traits": "Talent. Science.",
+      "type_code": "asset",
+      "xp": 0
+    },
+    {
+      "code": "09042",
+      "cost": 3,
+      "customization_options": [
+        {
+          "xp": 0,
+          "text_change": "insert",
+          "position": 0,
+          "choice": "choose_card",
+          "quantity": 1,
+          "card": {
+            "type": [
+              "asset"
+            ],
+            "trait": [
+              "Tome",
+              "Spell"
+            ]
+          }
+        },
+        {
+          "xp": 1,
+          "text_change": "append"
+        },
+        {
+          "xp": 1,
+          "text_change": "append"
+        },
+        {
+          "xp": 2,
+          "text_change": "append"
+        },
+        {
+          "xp": 2,
+          "text_change": "insert",
+          "position": 0,
+          "choice": "choose_card",
+          "quantity": 2,
+          "card": {
+            "type": [
+              "asset"
+            ],
+            "trait": [
+              "Tome",
+              "Spell"
+            ]
+          }
+        },
+        {
+          "xp": 3,
+          "text_change": "append"
+        },
+        {
+          "xp": 4,
+          "text_change": "replace",
+          "position": 1
+        }
+      ],
+      "customization_change": "Named asset:\nUsing attached asset's [action] abilities does not provoke attacks of opportunity.\nAttached asset does not take up any slots.\nYou get +2 skill value while performing skill tests on attached asset.\nAdditional named assets:\n[fast] Exhaust The Raven Quill: Move 1 secret or charge from an asset you control to attached asset.\nAttach to a named asset you control, or you may search your deck, discard pile, and hand for a copy of a named asset and play it <i>(paying its cost)</i>. Then, attach The Raven Quill to it.",
+      "customization_text": "Named [[Tome]] or [[Spell]] asset:\n□ <b>Living Quill.</b> Using attached asset's [action] abilities does not provoke attacks of opportunity.\n□ <b>Spectral Binding.</b> Attached asset does not take up any slots.\n□□ <b>Mystic Vane.</b> You get +2 skill value while performing skill tests on attached asset.\n□□ <b>Endless Inkwell.</b> Name two more [[Tome]] or [[Spell]] assets:\n□□ <b>Energy Sap.</b> The Raven Quill gains: \"[fast] Exhaust The Raven Quill: Move 1 secret or charge from an asset you control to attached asset.\"\n□□□□ <b>Supernatural Record.</b> When you play The Raven Quill, instead of attaching it to a named asset you control, you may search your deck, discard pile, and hand for a copy of a named asset and play it <i>(paying its cost)</i>. Then, attach The Raven Quill to it.",
+      "deck_limit": 2,
+      "faction_code": "seeker",
+      "illustrator": "Ethan Patrick Harris",
+      "name": "The Raven Quill",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 42,
+      "quantity": 2,
+      "skill_intellect": 2,
+      "text": "Customizable. When you purchase The Raven Quill, name a [[Tome]] or [[Spell]] asset and record that name on its upgrade sheet.\nAttach to a named asset you control.\n[reaction] When you resign or the game ends: Either mark a checkbox on The Raven Quill's upgrade sheet, or reduce the experience cost to upgrade the attached asset before the next scenario by 1.",
+      "traits": "Item. Relic. Upgrade.",
+      "type_code": "event",
+      "xp": 0
+    },
+    {
       "code": "09047",
       "cost": 1,
       "deck_limit": 2,
@@ -477,6 +809,7 @@
       "illustrator": "Stephen Somers",
       "name": "Captivating Discovery",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 47,
       "quantity": 2,
       "skill_agility": 1,
@@ -485,6 +818,24 @@
       "traits": "Insight.",
       "type_code": "event",
       "xp": 0
+    },
+    {
+      "code": "09052",
+      "cost": 1,
+      "deck_limit": 2,
+      "faction_code": "seeker",
+      "illustrator": "Adam Doyle",
+      "name": "Existential Riddle",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 52,
+      "quantity": 2,
+      "skill_intellect": 1,
+      "skill_willpower": 1,
+      "text": "<b>Parley.</b> Choose a non-[[Elite]] enemy at your location and test [willpower] or [intellect] (8). This test gets -1 difficulty for each other card in your hand. If you succeed, automatically evade the chosen enemy and attach Existential Riddle to it.\nAttached enemy gains aloof.",
+      "traits": "Insight. Paradox.",
+      "type_code": "event",
+      "xp": 1
     },
     {
       "code": "09059",
@@ -523,6 +874,7 @@
       "illustrator": "Pixoloid Studios",
       "name": "Damning Testimony",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 59,
       "quantity": 2,
       "skill_intellect": 1,
@@ -540,6 +892,7 @@
       "illustrator": "Mauro Dal Bo",
       "name": "Thieves' Kit",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 64,
       "quantity": 2,
       "skill_intellect": 1,
@@ -550,6 +903,25 @@
       "xp": 0
     },
     {
+      "code": "09066",
+      "cost": 1,
+      "deck_limit": 2,
+      "faction_code": "rogue",
+      "flavor": "\"Impeccable timing, Mr. Fergus.\"",
+      "illustrator": "Robert Laskey",
+      "name": "Hit and Run",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 66,
+      "quantity": 2,
+      "skill_agility": 1,
+      "skill_combat": 1,
+      "text": "Fast. Play only during your turn.\nPut an [[Ally]] asset from your hand into play. At the end of your turn, if that asset is still in play, return it to your hand.",
+      "traits": "Tactic. Trick.",
+      "type_code": "event",
+      "xp": 0
+    },
+    {
       "code": "09067",
       "cost": 0,
       "deck_limit": 2,
@@ -557,6 +929,7 @@
       "illustrator": "Aleksander Karcz",
       "name": "\"I'll take that!\"",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 67,
       "quantity": 2,
       "skill_agility": 1,
@@ -564,6 +937,21 @@
       "text": "Fast. Play when you successfully evade a [[Humanoid]] enemy or successfully investigate.\nPlay an [[Item]] asset from your hand, reducing its cost by X, where X is the amount you succeeded by. Attach \"I'll take that!\" to that asset. Attached asset gains [[Illicit]].",
       "traits": "Trick. Upgrade. Illicit.",
       "type_code": "event",
+      "xp": 0
+    },
+    {
+      "code": "09070",
+      "deck_limit": 2,
+      "faction_code": "rogue",
+      "illustrator": "German Nobile",
+      "name": "Calculated Risk",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 70,
+      "quantity": 2,
+      "text": "Max 1 committed per skill test.\nCommit only to a test you are performing of any type, and only if it is your turn.\nCalculated Risk gains [wild] for each action you performed this turn <i>(including this one)</i>.\nAfter this test ends, end your turn.",
+      "traits": "Gambit. Fated.",
+      "type_code": "skill",
       "xp": 0
     },
     {
@@ -614,6 +1002,7 @@
       "illustrator": "Anders Finer",
       "name": "Summoned Servitor",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 80,
       "quantity": 2,
       "skill_willpower": 1,
@@ -647,32 +1036,33 @@
         {
           "xp": 2,
           "text_change": "insert",
-          "position": 2
+          "position": 1
         },
         {
           "xp": 3,
           "text_change": "insert",
-          "position": 2
+          "position": 1
         },
         {
           "xp": 3,
-          "text_change": "insert",
+          "text_change": "replace",
           "position": 2
         },
         {
           "xp": 3,
           "deck_limit": 3,
           "text_change": "insert",
-          "position": 2
+          "position": 1
         }
       ],
-      "customization_change": "- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\n- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\n- <i>'Distract.</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\n[fast]: Return Power Word to your hand.\nYou may activate the parley ability on Power Word from up to one location away from the attached enemy.\nWhen you parley with Power Word, you may give up to two different commands.\nYou may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
-      "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\"\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister.</b> When you parley with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+      "customization_change": "- <i>\"Betray.\"</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n- <i>\"Mercy.\"</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\n- <i>\"Confess.\"</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\n- <i>\"Distract.\"</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\n[fast]: Return Power Word to your hand.\nYou may activate the parley ability on Power Word from up to one location away from the attached enemy.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it up to two different commands (limit once per round per command) -\nYou may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+      "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\"\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.'</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister.</b> When you parley with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
       "deck_limit": 2,
       "faction_code": "mystic",
       "illustrator": "Anders Finer",
       "name": "Power Word",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 81,
       "quantity": 3,
       "skill_intellect": 1,
@@ -689,6 +1079,7 @@
       "illustrator": "Steve Hamilton",
       "name": "Ceremonial Sickle",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 82,
       "quantity": 2,
       "skill_combat": 1,
@@ -705,6 +1096,7 @@
       "illustrator": "Tiziano Baracchi",
       "name": "Dowsing Rod",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 83,
       "quantity": 2,
       "skill_intellect": 1,
@@ -712,6 +1104,40 @@
       "traits": "Item. Charm.",
       "type_code": "asset",
       "xp": 0
+    },
+    {
+      "code": "09088",
+      "cost": 1,
+      "deck_limit": 2,
+      "faction_code": "mystic",
+      "illustrator": "Brian Valenzuela",
+      "name": "String of Curses",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 88,
+      "quantity": 2,
+      "skill_agility": 1,
+      "skill_combat": 1,
+      "text": "<b>Parley.</b> Choose a non-[[Elite]] enemy at your location and either (choose one):\n- Automatically evade that enemy and place 1 doom on it. It cannot take damage for the remainder of the round. Discover 1 clue at your location.\n- If that enemy has 1 or more doom on it, defeat it. Gain 1 resource for each doom that was on it.",
+      "traits": "Spell.",
+      "type_code": "event",
+      "xp": 0
+    },
+    {
+      "code": "09090",
+      "deck_limit": 2,
+      "faction_code": "mystic",
+      "illustrator": "Anders Finer",
+      "name": "Ghastly Possession",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 90,
+      "quantity": 2,
+      "skill_wild": 1,
+      "text": "After you commit Ghastly Possession to a skill test on an asset, choose one:\n- Place 1 doom on that asset. Ghastly Possession gains [wild][wild].\n- If this test is successful, either remove 1 doom from this asset, or replenish half of its uses (rounded down).",
+      "traits": "Innate. Spell.",
+      "type_code": "skill",
+      "xp": 1
     },
     {
       "code": "09092",
@@ -722,6 +1148,7 @@
       "illustrator": "Andreas Zafiratos",
       "name": "Elle Rubash",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 92,
       "quantity": 2,
       "sanity": 2,
@@ -732,6 +1159,24 @@
       "traits": "Ally. Witch.",
       "type_code": "asset",
       "xp": 2
+    },
+    {
+      "code": "09094",
+      "cost": null,
+      "deck_limit": 1,
+      "exceptional": true,
+      "faction_code": "mystic",
+      "illustrator": "Brian Valenzuela",
+      "name": "Sin-Eater",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "permanent": true,
+      "position": 94,
+      "quantity": 1,
+      "text": "Permanent. Exceptional.\n[fast] Exhaust Sin-Eater: Move 1 doom from an asset you control to Sin-Eater. Then, either ready that asset or place 1 charge on it.\n[action]: Remove all doom from Sin-Eater.",
+      "traits": "Ritual.",
+      "type_code": "asset",
+      "xp": 3
     },
     {
       "code": "09099",
@@ -768,13 +1213,14 @@
         }
       ],
       "customization_change": "Other investigators at your location may use the ability on Pocket Multi Tool.\nYou get an additional +1 skill value if this is during a skill test on a treachery.\nYou get an additional +1 skill value if this is during an attack.\nYou get an additional +1 skill value if this is during an evasion attempt.\nYou get an additional +1 skill value if this is during an investigation.\nAfter you fail a skill test, ready Pocket Multi Tool.\n□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
-      "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n□□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
+      "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n[reaction] When you would fail a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
       "deck_limit": 2,
       "faction_code": "survivor",
       "flavor": "But wait - there's more!",
       "illustrator": "JB Casacop",
       "name": "Pocket Multi Tool",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 99,
       "quantity": 2,
       "skill_wild": 1,
@@ -793,6 +1239,7 @@
       "illustrator": "Sam Perin",
       "name": "Improvised Shield",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 103,
       "quantity": 2,
       "slot": "Hand",
@@ -803,17 +1250,75 @@
     },
     {
       "code": "09107",
+      "cost": null,
       "deck_limit": 2,
       "faction_code": "survivor",
       "illustrator": "David Hovey",
       "name": "Predator or Prey",
       "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
       "position": 107,
       "quantity": 2,
       "text": "Max 2 [[Dilemma]] per round.\n<b>Revelation</b> - If there are no enemies in play, draw 1 card. Otherwise, you must decide (choose one):\n- Each unengaged enemy moves once toward the nearest investigator.\n- Each investigator disengages from each enemy engaged with them and moves once away from the nearest enemy.",
       "traits": "Dilemma. Tactic.",
       "type_code": "event",
       "xp": 0
+    },
+    {
+      "code": "09116",
+      "cost": 0,
+      "deck_limit": 2,
+      "faction_code": "survivor",
+      "flavor": "You feel a bit discarded, too.",
+      "illustrator": "Robert Laskey",
+      "name": "Salvage",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 116,
+      "quantity": 2,
+      "skill_intellect": 1,
+      "text": "Choose an [[Item]] asset in your discard pile. Either (choose one):\n- Remove that asset from the game and gain resources equal to its cost.\n- Play that asset <i>(paying its cost)</i>.",
+      "traits": "Insight.",
+      "type_code": "event",
+      "xp": 2
+    },
+    {
+      "code": "09120",
+      "cost": 2,
+      "deck_limit": 2,
+      "faction_code": "neutral",
+      "illustrator": "Carlos Palma Cruchaga",
+      "name": "Tool Belt",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 120,
+      "quantity": 2,
+      "skill_willpower": 1,
+      "slot": "Body",
+      "text": "Each attached asset takes up no slots and its text box is treated as if it were blank (except for [[Traits]]).\n[fast] Exhaust Tool Belt: Choose one - attach a [[Tool]] asset in your play area to Tool Belt, switch a [[Tool]] asset in your play area with an attached asset, or detach an attached asset.",
+      "traits": "Item. Clothing.",
+      "type_code": "asset",
+      "xp": 0
+    },
+    {
+      "code": "09127",
+      "deck_limit": 1,
+      "enemy_damage": 0,
+      "enemy_evade": 2,
+      "enemy_fight": 2,
+      "enemy_horror": 1,
+      "faction_code": "neutral",
+      "health": 2,
+      "illustrator": "Rafał Hrynkiewicz",
+      "name": "Ectoplasmic Horror",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 127,
+      "quantity": 1,
+      "subtype_code": "basicweakness",
+      "text": "[mystic] investigator only.\nHunter.\nThe first time you reveal a chaos token while attacking or attempting to evade Ectoplasmic Horror, reveal an additional token for each empty arcane slot you have.",
+      "traits": "Monster. Geist.",
+      "type_code": "enemy"
     }
   ]
 }
