@@ -77,6 +77,8 @@
       "code": "999999",
       "name": "Flashlight (beta)",
       "real_name": "Flashlight",
+      "faction_code": "neutral",
+      "faction_name": "Neutral",
       "cost": 2,
       "text": "Uses (4 supplies).\n[reaction] When you perform a skill test while investigating or attemting to evade, spend 1 supply: This test gets -2 difficulty..\n<b>Card designed by the Council-in-Exile at Arkham Nights 2020</b>",
       "pack_name": "Create-a-card Stream 2020",
