@@ -191,7 +191,7 @@
       "skill_agility": 1,
       "skill_intellect": 1,
       "skill_wild": 1,
-      "real_slot": "Hand",
+      "slot": "Hand",
       "text": "Kymani Jones deck only.\nActions performed using Grappling Hook do not provoke attacks of opportunity.\n[action][action] Exhaust Grappling Hook: Take up to 3 different basic actions from the following list, in any order (engage, evade, investigate, or move). If you investigate, use your [agility] instead of your [intellect].",
       "traits": "Item. Tool.",
       "type_code": "asset"
@@ -265,6 +265,91 @@
       "subtype_code": "weakness",
       "text": "<b>Revelation</b> - Move 1 doom from an asset you control to the current agenda. This may cause the current agenda to advance. If no doom is moved in this way, shuffle Deafening Silence back into your deck.",
       "traits": "Omen.",
+      "type_code": "treachery"
+    },
+    {
+      "back_flavor": "Even while growing up in Arkham, Darrell always knew that there was something not quite right about the strange little town. After graduating from high school, he went to work for the <i>Arkham Advertiser</i> as a photographer, and in the years since, he's scoured every inch of the city. But on one fateful night, he saw something truly indescribable - a horror that shook his world to the core. His editor says he was just seeing things, but he knows the truth. With his trusty camera in tow, he will not rest until he has captured photographic evidence of the horrors that dwell in the shadows of his hometown and beyond. Just one good shot is all he needs.",
+      "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Seeker cards ([seeker]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Darrell's Kodak, Ruined Film, 1 random basic weakness.",
+      "code": "09015",
+      "deck_limit": 1,
+      "deck_options": [
+        {
+          "faction": [
+            "survivor",
+            "neutral"
+          ],
+          "level": {
+            "min": 0,
+            "max": 5
+          }
+        },
+        {
+          "faction": [
+            "seeker"
+          ],
+          "level": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      ],
+      "deck_requirements": "size:30, card:09016, card:09017, random:subtype:basicweakness",
+      "double_sided": true,
+      "faction_code": "survivor",
+      "flavor": "\"The truth is darker than any of us know.\"",
+      "health": 6,
+      "illustrator": "Cristi Balanescu",
+      "is_unique": true,
+      "name": "Darrell Simmons",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 15,
+      "quantity": 1,
+      "sanity": 8,
+      "skill_agility": 3,
+      "skill_intellect": 5,
+      "skill_combat": 2,
+      "skill_willpower": 2,
+      "subname": "The Photographer",
+      "text": "You begin the game with Darrell's Kodak in play.\n[fast] During a skill test at your location, spend 1 evidence from an asset you control: Reduce the difficulty of this test by 2. (Limit once per test.)\n[elder_sign] effect: +1. Place 1 evidence on an asset you control.",
+      "traits": "Reporter.",
+      "type_code": "investigator"
+    },
+    {
+      "code": "09016",
+      "cost": 2,
+      "deck_limit": 1,
+      "faction_code": "neutral",
+      "illustrator": "Pixoloid Studios",
+      "name": "Darrell's Kodak",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 16,
+      "quantity": 1,
+      "skill_agility": 1,
+      "skill_intellect": 1,
+      "skill_wild": 1,
+      "subname": "Proof in the Pudding",
+      "restrictions": "investigator:09015",
+      "text": "Darrell Simmons deck only.\n[reaction] After an enemy or treachery enters play, exhaust Darrell's Kodak: Place 1 resource <i>(from the token pool)</i> on that enmey or treachery, as evidence.\n[reaction] After you discover any number of clues: Move that many evidence on enemies or treacheries at that location (or not any location) to Darrell's Kodak.",
+      "traits": "Item. Tool.",
+      "type_code": "event"
+    },
+    {
+      "code": "09017",
+      "deck_limit": 1,
+      "faction_code": "neutral",
+      "flavor": "Irrefutable proof, reduced to nothing in the light of day.",
+      "illustrator": "Pixoloid Studios",
+      "name": "Ruined Film",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 17,
+      "quantity": 1,
+      "restrictions": "investigator:09015",
+      "subtype_code": "weakness",
+      "text": "<b>Revelation</b> - Remove 4 evidence from cards you control. For each evidence you cannot remove in this way, take 1 horror.",
+      "traits": "Blunder.",
       "type_code": "treachery"
     },
     {
@@ -361,7 +446,7 @@
       "restrictions": "investigator:09018",
       "sanity": 2,
       "skill_wild": 2,
-      "real_slot": "Ally",
+      "slot": "Ally",
       "text": "Charlie Kane deck only.\n[reaction] After you exhaust Bonnie Walsh: Ready another [[Ally]] asset you control. (Limit once per round.)",
       "traits": "Ally. Civic. Assistant.",
       "type_code": "asset"
@@ -433,7 +518,7 @@
       "quantity": 2,
       "sanity": 2,
       "skill_willpower": 1,
-      "real_slot": "Body",
+      "slot": "Body",
       "text": "Customizable.",
       "traits": "Item. Armor.",
       "type_code": "asset",
@@ -494,7 +579,7 @@
       "position": 22,
       "quantity": 2,
       "skill_combat": 1,
-      "real_slot": "Hand x2",
+      "slot": "Hand x2",
       "text": "Customizable. Uses (4 charges). Replenish 1 of these charges at the start of each round.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack. Before this attack, you may spend any number of charges to imbue the axe with that many different inscriptions -\n- <i>Accuracy</i> - You get an additional +2 [combat] for this attack.\n- <i>Power</i> - This attack deals +1 damage.",
       "traits": "Item. Weapon. Melee.",
       "type_code": "asset",
@@ -605,7 +690,7 @@
       "sanity": 2,
       "skill_agility": 1,
       "skill_intellect": 1,
-      "real_slot": "Ally",
+      "slot": "Ally",
       "text": "You get +1 [intellect].\n[fast] Exhaust Field Agent and deal 1 horror to it: Discover 1 clue at your location.",
       "traits": "Ally. Agency.",
       "type_code": "asset",
@@ -660,7 +745,7 @@
       "position": 40,
       "quantity": 2,
       "skill_willpower": 1,
-      "real_slot": "Hand",
+      "slot": "Hand",
       "text": "Customizable. Uses (3 supplies).\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options -\n- Draw 2 cards.\n- Gain 2 resources.",
       "traits": "Item. Science.",
       "type_code": "asset",
@@ -877,7 +962,7 @@
       "position": 59,
       "quantity": 2,
       "skill_intellect": 1,
-      "real_slot": "Hand",
+      "slot": "Hand",
       "text": "Customizable. Uses (3 evidence).\n[action] Exhaust Damning Testimony and choose an enemy at any location: <b>Investigate.</b> <i>(your location)</i>. If you succeed, you may spend 1 evidence to discover 1 additional clue at the chosen enemy's location.",
       "traits": "Item. Illicit.",
       "type_code": "asset",
@@ -888,6 +973,7 @@
       "cost": 3,
       "deck_limit": 2,
       "faction_code": "rogue",
+      "flavor": "\"Why do I keep these on me? Why, to be better informed regarding the unsavory methods of art thieves, of course.\"",
       "illustrator": "Mauro Dal Bo",
       "name": "Thieves' Kit",
       "pack_code": "tskp",
@@ -895,7 +981,7 @@
       "position": 64,
       "quantity": 2,
       "skill_intellect": 1,
-      "real_slot": "Hand",
+      "slot": "Hand",
       "text": "Uses (4 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> You may use [agility] instead of [intellect] for this investigation. If you succeed, gain 1 resource.",
       "traits": "Item. Tool. Illicit.",
       "type_code": "asset",
@@ -939,6 +1025,24 @@
       "xp": 0
     },
     {
+      "code": "09069",
+      "cost": 2,
+      "deck_limit": 2,
+      "faction_code": "rogue",
+      "flavor": "It's out of sight, but never out of mind.",
+      "illustrator": "Adam Schumpert",
+      "name": "Quick Getaway",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 69,
+      "quantity": 2,
+      "skill_agility": 2,
+      "text": "Fast. Play when an enemy attacks you.\n<b>Evade.</b> Attempt to evade the attacking enemy. If you succeed, cancel that enemy's attack.",
+      "traits": "Trick.",
+      "type_code": "event",
+      "xp": 0
+    },
+    {
       "code": "09070",
       "deck_limit": 2,
       "faction_code": "rogue",
@@ -952,6 +1056,26 @@
       "traits": "Gambit. Fated.",
       "type_code": "skill",
       "xp": 0
+    },
+    {
+      "code": "09075",
+      "cost": 3,
+      "deck_limit": 2,
+      "faction_code": "rogue",
+      "flavor": "\"...okay, fine, they're mine.\"",
+      "illustrator": "Mauro Dal Bo",
+      "name": "Thieves' Kit",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 75,
+      "quantity": 2,
+      "skill_agility": 1,
+      "skill_intellect": 1,
+      "slot": "Hand",
+      "text": "Uses (6 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> For this investigation, you may use [agility] instead of [intellect], and you get +1 skill value. If you succeed, gain 1 resource (2 resources instead if you succeed by 2 or more).",
+      "traits": "Item. Tool. Illicit.",
+      "type_code": "asset",
+      "xp": 3
     },
     {
       "code": "09080",
@@ -1005,7 +1129,7 @@
       "position": 80,
       "quantity": 2,
       "skill_willpower": 1,
-      "real_slot": "Ally. Arcane",
+      "slot": "Ally. Arcane",
       "text": "Customizable. As an additional cost to play Summoned Servitor, you must discard another asset you control.\nSummoned Servitor enters play at your location. It can take 1 action during each of your turns, which can only be used to take the following action:\n- Move Summoned Servitor to a connecting revealed location.",
       "traits": "Summon.",
       "type_code": "asset",
@@ -1082,6 +1206,7 @@
       "position": 82,
       "quantity": 2,
       "skill_combat": 1,
+      "slot": "Hand",
       "text": "[action]: <b>Fight.</b> Either use your [willpower] or get +1 [combat] for this attack. When you initiate this ability, choose one - \n- Exhaust Ceremonial Sickle and place 1 doom on it to get +1 skill value and deal +1 damage for this attack.\n- If this attack defeats an enemy, remove 1 doom from Ceremonial Sickle.",
       "traits": "Item. Charm. Weapon. Melee.",
       "type_code": "asset",
@@ -1099,7 +1224,26 @@
       "position": 83,
       "quantity": 2,
       "skill_intellect": 1,
+      "slot": "Hand",
       "text": "[action]: <b>Investigate.</b> Either use your [willpower] or get +1 [intellect] for this investigation. When you initiate this ability, choose one - \n- Exhaust Dowsing Rod and place 1 doom on it to move to a connection location.\n- If this investigation discovers the last clue at a location, remove 1 doom from Dowsing Rod.",
+      "traits": "Item. Charm.",
+      "type_code": "asset",
+      "xp": 0
+    },
+    {
+      "code": "09084",
+      "cost": 3,
+      "deck_limit": 2,
+      "faction_code": "mystic",
+      "illustrator": "Steve Hamilton",
+      "name": "Hallowed Chalice",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 84,
+      "quantity": 2,
+      "skill_willpower": 1,
+      "slot": "Hand",
+      "text": "[action]: Choose an investigator at your locationand either (choose one) - \n- Exhaust Hallowed Chalice and place 1 doom on it to heal 2 damage or 2 horror from that investigator.\n- Heal 1 damage or 1 horror from that investigator. If you heal the last damage or horror from that investigator, remove 1 doom from Hallowed Chalice.",
       "traits": "Item. Charm.",
       "type_code": "asset",
       "xp": 0
@@ -1153,7 +1297,7 @@
       "sanity": 2,
       "skill_agility": 1,
       "skill_willpower": 1,
-      "real_slot": "Ally",
+      "slot": "Ally",
       "text": "You get +1 skill value while resolving a skill test on an attached asset.\n1 doom on each attached asset does not count towards the agenda's doom threshold.\n[fast] Exhaust Elle Rubash: Choose an asset in your play area with 1 or more doom on it. Attach it to Elle Rubash, or switch it with an attached asset. (Limit 2 attached assets).",
       "traits": "Ally. Witch.",
       "type_code": "asset",
@@ -1211,8 +1355,8 @@
           "position": 1
         }
       ],
-      "customization_change": "Other investigators at your location may use the ability on Pocket Multi Tool.\nYou get an additional +1 skill value if this is during a skill test on a treachery.\nYou get an additional +1 skill value if this is during an attack.\nYou get an additional +1 skill value if this is during an evasion attempt.\nYou get an additional +1 skill value if this is during an investigation.\nAfter you fail a skill test, ready Pocket Multi Tool.\n□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
-      "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n[reaction] When you would fail a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
+      "customization_change": "Other investigators at your location may use the ability on Pocket Multi Tool.\nYou get an additional +1 skill value if this is during a skill test on a treachery.\nYou get an additional +1 skill value if this is during an attack.\nYou get an additional +1 skill value if this is during an evasion attempt.\nYou get an additional +1 skill value if this is during an investigation.\nAfter you fail a skill test, ready Pocket Multi Tool.\n[reaction] When you would fail a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
+      "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
       "deck_limit": 2,
       "faction_code": "survivor",
       "flavor": "But wait - there's more!",
@@ -1223,10 +1367,63 @@
       "position": 99,
       "quantity": 2,
       "skill_wild": 1,
-      "real_slot": "Hand",
+      "slot": "Hand",
       "text": "Customizable. Limit 1 per investigator.\n[fast] During a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
       "traits": "Item. Tool.",
       "type_code": "asset",
+      "xp": 0
+    },
+    {
+      "code": "09101",
+      "customization_options": [
+        {
+          "xp": 0,
+          "text_change": "insert",
+          "position": 0,
+          "choice": "choose_trait",
+          "quantity": 2
+        },
+        {
+          "xp": 1,
+          "text_change": "insert",
+          "position": 0,
+          "choice": "choose_trait",
+          "quantity": 1
+        },
+        {
+          "xp": 2,
+          "text_change": "insert",
+          "position": 0,
+          "choice": "choose_trait",
+          "quantity": 1
+        },
+        {
+          "xp": 3,
+          "text_change": "append"
+        },
+        {
+          "xp": 4,
+          "text_change": "append"
+        },
+        {
+          "xp": 5,
+          "text_change": "append"
+        }
+      ],
+      "customization_change": "Traits chosen: \nAdditional Trait: \nAdditional Trait: \nIf this is a skill test on or against an enemy with a chosen trait and the test is successful, you may attach Grizzled to that enemy. Reduce the difficulty of tests on or against the attached enemy by 1.\nIf this skill test is on a treachery with a chosen trait and the test is successful, you may add both Grizzled and this treachery to the victory display.\nAfter you draw an encounter card with a chosen trait, return one copy of Grizzled from your discard pile to your hand. (Max once per round.)",
+      "customization_text": "[[Traits]] chosen: \n□ <b>Specialist.</b> Choose another trait:\n□□ <b>Specialist.</b> Choose another trait:\n□□□ <b>Nemesis</b> If this is a skill test on or against an enemy with a chosen trait and the test is successful, you may attach Grizzled to that enemy. Reduce the difficulty of tests on or against the attached enemy by 1.\n□□□□ <b>Mythos-Hardened.</b> If this skill test is on a treachery with a chosen trait and the test is successful, you may add both Grizzled and this treachery to the victory display.\n□□□□□ <b>Always Prepared.</b> After you draw an encounter card with a chosen trait, return one copy of Grizzled from your discard pile to your hand. (Max once per round.)",
+      "deck_limit": 2,
+      "faction_code": "survivor",
+      "illustrator": "David Hovey",
+      "name": "Grizzled",
+      "pack_code": "tskp",
+      "pack_name": "The Scarlet Keys",
+      "position": 101,
+      "quantity": 2,
+      "skill_wild": 1,
+      "text": "Customizable. When you purchase Grizzled, choose and record two [[Traits]] on its upgrade sheet.\nIf this is a skill test on or against an encounter card <i>(including fighting, evading, or parleying)</i>, Grizzled gains [wild][wild] for each of the chosen traits that encounter card possesses.",
+      "traits": "Innated. Developed.",
+      "type_code": "skill",
       "xp": 0
     },
     {
@@ -1241,7 +1438,7 @@
       "pack_name": "The Scarlet Keys",
       "position": 103,
       "quantity": 2,
-      "real_slot": "Hand",
+      "slot": "Hand",
       "text": "Improvised Shield can only be played from your discard pile.\n<b>Forced</b> - When Improvised Shield is defeated: Shuffle it into your deck instead of discarding it.",
       "traits": "Item. Armor. Improvised.",
       "type_code": "asset",
@@ -1293,7 +1490,7 @@
       "position": 120,
       "quantity": 2,
       "skill_willpower": 1,
-      "real_slot": "Body",
+      "slot": "Body",
       "text": "Each attached asset takes up no slots and its text box is treated as if it were blank (except for [[Traits]]).\n[fast] Exhaust Tool Belt: Choose one - attach a [[Tool]] asset in your play area to Tool Belt, switch a [[Tool]] asset in your play area with an attached asset, or detach an attached asset.",
       "traits": "Item. Clothing.",
       "type_code": "asset",
