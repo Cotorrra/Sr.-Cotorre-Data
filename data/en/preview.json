@@ -97,6 +97,35 @@
       "type_code": "asset"
     },
     {
+        "back_flavor": "This is a placeholder for Carson Sinclair. The back of this card will be updated when we know Carson's deckbuilding.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): \"As you wish\", Selfless to a Fault, 1 random basic weakness.",
+        "code": "09001",
+        "deck_limit": 1,
+        "deck_options": [
+            { "faction": ["guardian", "neutral"], "level": { "min": 0, "max": 5 } }
+        ],
+        "deck_requirements": "size:30, card:09002, card:09003, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "guardian",
+        "health": 6,
+        "illustrator": "Magali Villeneuve",
+        "is_unique": true,
+        "name": "Carson Sinclair",
+        "pack_code": "tskp",
+        "pack_name": "The Scarlet Keys",
+        "position": 1,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 2,
+        "skill_intellect": 2,
+        "skill_combat": 2,
+        "skill_willpower": 2,
+        "subname": "The Butler",
+        "text": "You may take an additional action during your turn, which can only be used on the below [action] ability.\n[action]: Choose another investigator at your location. They immediately take an action as if it were their turn. (Limit once per round for each investigator.)\n[elder_sign] effect: +0. Draw 1 card. You may resolve this effect anytime another investigator at your location resolves their [elder_sign] effect.",
+        "traits": "Assistant.",
+        "type_code": "investigator"
+    },
+    {
       "code": "09002",
       "deck_limit": 1,
       "faction_code": "neutral",
@@ -217,6 +246,36 @@
       "text": "Alert. Hunter.\n<b>Prey</b> - Kymani Jones only.\nWhile Kymani Jones is evading Agent Fletcher, reduce their [intellect] value to 0.",
       "traits": "Humanoid. Coterie. Detective.",
       "type_code": "enemy"
+    },
+    {
+        "back_flavor": "This is a placeholder for Amina Zidane. The back of this card will be updated when we know Amina's deckbuilding.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Word of Woe, Word of Weal, Deafening Silence, 1 random basic weakness.",
+        "code": "09011",
+        "deck_limit": 1,
+        "deck_options": [
+            { "faction": ["mystic", "neutral"], "level": { "min": 0, "max": 5 } }
+        ],
+        "deck_requirements": "size:30, card:09011, card:09012, card:09013, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "mystic",
+        "flavor": "\"What is it trying to tell me?\"",
+        "health": 5,
+        "illustrator": "Aleksander Karcz",
+        "is_unique": true,
+        "name": "Amina Zidane",
+        "pack_code": "tskp",
+        "pack_name": "The Scarlet Keys",
+        "position": 11,
+        "quantity": 1,
+        "sanity": 9,
+        "skill_agility": 3,
+        "skill_intellect": 3,
+        "skill_combat": 3,
+        "skill_willpower": 3,
+        "subname": "The Operator",
+        "text": "[reaction] When you play an asset: Reduce its resouce cost by 3. It enters play with 1 doom on it. (Limit once per round.)\n[elder_sign] effect: +2. You may move all doom from a card at your location to another card at your location.",
+        "traits": "Chosen. Cursed.",
+        "type_code": "investigator"
     },
     {
       "code": "09012",
