@@ -12,7 +12,7 @@
       "quantity": 1,
       "skill_willpower": 1,
       "skill_combat": 1,
-      "text": "You have 2 additional arcane slot.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack for each of your arcane slots that is filled. If at least 2 of your arcane slots are filled, this attack deals +1 damage. If you succeed, you may place the top card of your deck facedown in your play area, as an Audra (It takes up an arcane slot. If it leaves play, add it to your hand.)\n<b>Card designed by the Pride of Arkham</b>",
+      "text": "You have 2 additional arcane slot.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack for each of your arcane slots that is filled. If at least 2 of your arcane slots are filled, this attack deals +1 damage. If you succeed, you may place the top card of your deck facedown in your play area, as an Aura (It takes up an arcane slot. If it leaves play, add it to your hand.)\n<b>Card designed by the Pride of Arkham</b>",
       "xp": 3,
       "traits": "Item. Weapon. Melee.",
       "type_code": "asset",
