@@ -951,7 +951,6 @@
     },
     {
       "code": "09109",
-      "cost": null,
       "deck_limit": 2,
       "faction_code": "survivor",
       "illustrator": "Aleksander Karcz",
@@ -967,7 +966,6 @@
     },
     {
       "code": "09115",
-      "cost": null,
       "deck_limit": 2,
       "faction_code": "survivor",
       "illustrator": "Quintin Gleim",
