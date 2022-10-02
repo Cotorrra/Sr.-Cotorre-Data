@@ -68,7 +68,7 @@
     "ahWho_title": "Who can take this card?",
     "ahWho_title_neg": "Who CANNOT take this card?",
     "ahWho_neg_text": "Almost anyone can take this card, except:",
-    "ahWho_versatile_text": "Note: Most investigators could use this card if they use Versatile (2) (The Dream Eaters #167).",
+    "ahWho_versatile_text": "Note: As a level 0 card, any investigators can take this card if they use Versatile (2) (The Dream Eaters #167) <i>(assuming no investigator-specific deckbuilding restrictions).</i>",
     "ahWho_everyone": "Any investigator can take this card! (At the moment)",
     "name_description": "Card Name",
     "traits_description": "Card Traits(s), you can include more than one separating by spaces (ej: Ally Wayfarer)",
