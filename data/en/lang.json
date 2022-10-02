@@ -67,7 +67,7 @@
     "ahWho_description": "Returns a list showing the investigators who can use the card.",
     "ahWho_title": "Who can take this card?",
     "ahWho_title_neg": "Who CANNOT take this card?",
-    "ahWho_neg_text": "Almost everyone can take this card but this investigator(s) CANNOT take the card:",
+    "ahWho_neg_text": "Note: This investigator(s) CANNOT take the card:",
     "ahWho_versatile_text": "Any investigator can add this card if they use Versatile (2) (TDE #167).",
     "ahWho_everyone": "Any investigator can take this card! (At the moment)",
     "name_description": "Card Name",

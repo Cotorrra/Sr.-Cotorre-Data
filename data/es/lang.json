@@ -67,6 +67,7 @@
     "ahWho_description": "Devuelve una lista de los Investigadores que pueden llevar la carta en su mazo.",
     "ahWho_title": "¿Quien puede llevar esta carta?",
     "ahWho_title_neg": "¿Quien NO puede llevar esta carta?",
+    "ahWho_neg_text": "Nota: Estos Investigador(es) NO PUEDEN llevar la carta:",
     "ahWho_versatile_text": "Cualquier investigador/a puede llevar esta carta si usa Verátil (2) (Devoradores de Sueños #167).",
     "ahWho_everyone": "Cualquier investigador/a puede llevar esta carta! (Por ahora)",
     "name_description": "Nombre de la carta",
