@@ -40,6 +40,26 @@
       "traits": "Ally. Detective. Police.",
       "type_code": "asset",
       "real_slot": "Ally"
+    },
+    {
+      "code": "00003",
+      "deck_limit": 1,
+      "faction_code": "neutral",
+      "illustrator": "???",
+      "name": "Al",
+      "subname": "the Alligator in a Vest",
+      "pack_name": "'We have fun here at Fantasy Flight.'",
+      "position": 1,
+      "quantity": 1,
+      "skill_willpower": 2,
+      "skill_intellect": 3,
+      "skill_combat": 4,
+      "skill_agility": 3,
+      "text": "<b>Focus</b>: <i>Parlay</i>. You can speak with your kind. Choose a green enemy in your location. Until the end of the round, you gain its keywords and abilities.\n🔎: +1 (+3 instead if you are an alligator).",
+      "health": 8,
+      "sanity": 6,
+      "traits": "Faculty.",
+      "type_code": "investigator"
     }
   ]
 }
