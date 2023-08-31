@@ -1,9 +1,11 @@
 [ 
   {
+    "id": 6,
     "code": "006",
     "name": "from FAQ v2.1",
     "active": 1,
     "date_start": "2023-08-30",
+    "date_update": "2023-08-30",
     "cards": [
         {
           "code": "02108",
@@ -43,6 +45,14 @@
         },
         {
           "code": "08099",
+          "xp": 2
+        },
+        {
+          "code": "09022",
+          "text": "The Upgrade - <b> Inscription of the Hunt</b> costs +1 experience."
+        },
+        {
+          "code": "09108",
           "xp": 2
         },
         {
@@ -254,14 +264,14 @@
         },
         {
           "code": "09081",
-          "text": "This card’s [action] ability now reads: “[action] If attached enemy is at your location: Parley. Test [willpower](3). If you succeed, give it a command (limit once per round per command)\n – “Go.” This enemy moves once in a direction of your choice.”\n\nThis card’s customizable sheet loses the “Mercy” ability and gains:\n “☐ Cower. Add the command: “- ‘Cower.’ This enemy exhausts."
+          "text": "This card’s [action] ability now reads: “[action] If attached enemy is at your location: Parley. Test [willpower](3). If you succeed, give it a command (limit once per round per command) - \n> - <i>“Go.”</i> This enemy moves once in a direction of your choice.”\n> This card’s customizable sheet loses the <i>“Mercy”</i> ability and gains:\n> “□ <b>Cower.</b> Add the command: “- <i>‘Cower.’</i> This enemy exhausts.”"
         }
     ]
   },
   {
     "code": "005",
     "name": "from FAQ v2.0",
-    "active": 1,
+    "active": 0,
     "date_start": "2022-08-26",
     "cards": [
       {
@@ -524,7 +534,7 @@
     "id": 4,
     "code": "004",
     "name": "Taboo List",
-    "active": 1,
+    "active": 0,
     "date_start": "2021-06-28",
     "date_update": "2021-06-28",
     "cards": [

@@ -1,7 +1,7 @@
 [
   {
     "id": 6,
-    "code": "005",
+    "code": "006",
     "name": "del FAQ 2.1",
     "active": 1,
     "date_start": "2023-08-30",
@@ -49,7 +49,7 @@
       },
       {
         "code": "09022",
-        "text": "La mejora de <i><b>Inscripción de la caza</b></i> cuesta +1 de Experiencia."
+        "text": "La mejora - <b>Inscripción de la caza</b> cuesta +1 de experiencia."
       },
       {
         "code": "09108",
@@ -263,7 +263,7 @@
       },
       {
         "code": "09081",
-        "text": "La capacidad [action] de esta carta ahora dice: \"[action] Si el enemigo vinculado está en tu lugar: <b>Negociar.</b> Realiza una prueba de habilidad de [willpower](3). Si tienes éxito, dale una orden (límite de una vez por ronda y por orden)\n - \"Vete\". Este enemigo se mueve una vez en una dirección de tu elección.\".\n\nLa carta de mejora de esta carta pierde la capacidad <i>\"Apiádate\"</i> y obtiene \"☐ <b>Acorbádate.</b> Añade la orden \"- <i>Acorbárdate.</i> Este enemigo se agota.\""
+        "text": "La capacidad [action] de esta carta ahora dice: \"[action] Si el enemigo vinculado está en tu lugar: <b>Negociar.</b> Realiza una prueba de [willpower](3). Si tienes éxito, dale una orden (límite de una vez por ronda y por orden). -\n> - \"Vete\". Este enemigo se mueve una vez en una dirección de tu elección.\".\n> La carta de mejora de esta carta pierde la capacidad <i>\"Apiádate\"</i> y obtiene \"□ <b>Acorbádate.</b> Añade la orden \"- '<i>Acorbárdate.</i>' Este enemigo se agota.\""
       },
       {
         "code": "02026",

@@ -65,10 +65,12 @@
     "ahRandom_description": "Devuelve una carta de jugador que no es de historia al azar dado los parámetros dados.",
     "ahList_description": "Devuelve hasta 20 cartas de jugador que no son de historia que cumplen los parámetros dados.",
     "ahWho_description": "Devuelve una lista de los Investigadores que pueden llevar la carta en su mazo.",
+    "ahCustomizable_description": "Busca la lista de mejoras de una carta Personalizable.",
+    "customization_note": "(Para ver las opciones de mejoras disponibles usa el comando /ahCustomizable )",
     "ahWho_title": "¿Quien puede llevar esta carta?",
     "ahWho_title_neg": "¿Quien NO puede llevar esta carta?",
     "ahWho_neg_text": "Casi todos los Investigadores pueden llevar esta carta, excepto:",
-    "ahWho_versatile_text": "Nota: Como cualquier carta de nivel 0, cualquier investigador puede llevarla si usa Versátil (2) (Devoradores de Sueños #167) <i>(asumiendo que no hay restricciones que construcción de mazos)</i>",
+    "ahWho_versatile_text": "Nota: Esta lista no considera el uso de Versátil (Devoradores de Sueños #167)",
     "ahWho_everyone": "Cualquier investigador/a puede llevar esta carta! (Por ahora)",
     "name_description": "Nombre de la carta",
     "trait_description": "Rasgo(s) de la carta, puedes incluir más de uno separando por espacios. (ej: Aliado Viajero)",
@@ -96,7 +98,7 @@
     "self_delete": "Eliminar",
     "ahList_title": "Cartas encontradas:",
     "ahPreview_description": "Busca cartas que aún no han salido, cartas beta, etc.",
-    "costumization_title": "Mejoras Disponibles:",
+    "customization_title": "Mejoras Disponibles:",
     "preview_set": "Esta es una carta beta/avance"
     }
 }
