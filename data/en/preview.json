@@ -1,7 +1,7 @@
 {
   "cards": [
     {
-      "code": "00001",
+      "code": "999999",
       "deck_limit": 2,
       "faction_code": "guardian",
       "faction2_code": "mystic",
@@ -20,7 +20,7 @@
       "real_slot": "Hand x2"
     },
     {
-      "code": "00002",
+      "code": "999999",
       "deck_limit": 2,
       "faction_code": "guardian",
       "illustrator": "Andreia Ugrai",
@@ -42,13 +42,14 @@
       "real_slot": "Ally"
     },
     {
-      "code": "00003",
+      "code": "MemesHaventBeenInventedYet",
       "deck_limit": 1,
       "faction_code": "neutral",
       "illustrator": "???",
       "name": "Al",
       "subname": "the Alligator in a Vest",
-      "pack_name": "'We have fun here at Fantasy Flight.'",
+      "pack_name": "Secrets of the Black Cat",
+      "flavor": "'We have fun here at Fantasy Flight.'",
       "position": 1,
       "quantity": 1,
       "skill_willpower": 2,
@@ -59,7 +60,8 @@
       "health": 8,
       "sanity": 6,
       "traits": "Faculty.",
-      "type_code": "investigator"
+      "type_code": "investigator",
+      "url": "https://www.bewaretheblackcat.com/post/behind-the-curtain-investigators-part-i"
     }
   ]
 }

@@ -14,6 +14,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def data():
+    print("Getting a GET")
     try:
         language = request.args.get("language")
         call_type = request.args.get("type")
@@ -28,5 +29,7 @@ def data():
 
     except:
         return "Invalid arguments", 200
+
+print("Ready!")
 
 serve(app, host="0.0.0.0", port=8080)
