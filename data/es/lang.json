@@ -73,7 +73,7 @@
     "ahWho_versatile_text": "Nota: Esta lista no considera el uso de Versátil (Devoradores de Sueños #167)",
     "ahWho_everyone": "Cualquier investigador/a puede llevar esta carta! (Por ahora)",
     "name_description": "Nombre de la carta",
-    "trait_description": "Rasgo(s) de la carta, puedes incluir más de uno separando por espacios. (ej: Aliado Viajero)",
+    "trait_description": "Rasgo(s) de la carta, puedes incluir más de uno separando por comas. (ej: Aliado, Viajero)",
     "level_description": "Nivel de la carta",
     "faction_description": "Clase de la carta",
     "sub_description": "Subtítulo de la carta",

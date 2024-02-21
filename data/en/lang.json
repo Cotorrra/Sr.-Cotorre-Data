@@ -73,7 +73,7 @@
     "ahWho_versatile_text": "Note: This list does not considerate Versatile (The Dream Eaters #167).",
     "ahWho_everyone": "Any investigator can take this card! (At the moment)",
     "name_description": "Card Name",
-    "traits_description": "Card Traits(s), you can include more than one separating by spaces (ex: Ally Wayfarer)",
+    "traits_description": "Card Traits(s), you can include more than one separating by commas (ex: Ally, Wayfarer)",
     "level_description": "Card Level",
     "faction_description": "Card Class",
     "sub_description": "Card subtitle",
