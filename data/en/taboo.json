@@ -57,7 +57,10 @@
         },
         {
           "code": "09022",
-          "text": "The Upgrade - <b> Inscription of the Hunt</b> costs +1 experience."
+          "xp_customizable": {
+            "3": {"xp": 1}
+          },
+          "text": "The Upgrade <b>Inscription of the Hunt</b> costs +1 experience."
         },
         {
           "code": "09108",

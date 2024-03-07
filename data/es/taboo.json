@@ -56,7 +56,12 @@
     },
     {
       "code": "09022",
-      "text": "La mejora - <b>Inscripción de la caza</b> cuesta +1 de experiencia."
+      "xp_customizable": {
+        "3": {
+          "xp": 1
+        }
+      },
+      "text": "La mejora <b>Inscripción de la caza</b> cuesta +1 de experiencia."
     },
     {
       "code": "09108",
